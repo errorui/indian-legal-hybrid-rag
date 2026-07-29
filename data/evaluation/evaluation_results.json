@@ -1,0 +1,5568 @@
+[
+  {
+    "id": "Q001",
+    "query": "What constitutional provisions govern the parliamentary procedure required to alter the boundaries or rename existing states of the Indian Union?",
+    "status": "PASS",
+    "target_articles": [
+      "3",
+      "4"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4",
+      "32",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "368",
+      "393",
+      "394",
+      "395"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 27672,
+    "retrieval_length_words": 4267
+  },
+  {
+    "id": "Q002",
+    "query": "Under what legislative mechanism can Parliament admit or establish new states into the Union of India on terms it deems fit?",
+    "status": "PASS",
+    "target_articles": [
+      "2"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 12976,
+    "retrieval_length_words": 2192
+  },
+  {
+    "id": "Q003",
+    "query": "How does the Constitution classify laws enacted for the formation of new states or alteration of areas regarding their status as formal constitutional amendments under Article 368?",
+    "status": "PASS",
+    "target_articles": [
+      "4"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4",
+      "7",
+      "12",
+      "13",
+      "21",
+      "243",
+      "243A",
+      "243B",
+      "243C",
+      "243D",
+      "243E",
+      "243F",
+      "243G",
+      "243H",
+      "243I",
+      "243J",
+      "243K",
+      "243L",
+      "243M",
+      "243N",
+      "243O",
+      "243P",
+      "243Q",
+      "243R",
+      "243S",
+      "243T",
+      "243U",
+      "243V",
+      "243W",
+      "243X",
+      "243Y",
+      "243Z",
+      "244",
+      "368"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 54816,
+    "retrieval_length_words": 8931
+  },
+  {
+    "id": "Q004",
+    "query": "What historical territory transfer details and boundary demarcations between India and Bangladesh are documented under Appendix I of the constitutional text?",
+    "status": "PASS",
+    "target_articles": [
+      "1"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "393",
+      "394",
+      "395"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 35576,
+    "retrieval_length_words": 2408
+  },
+  {
+    "id": "Q005",
+    "query": "Which specific constitutional amendment formally integrated Sikkim into the Union of India before its subsequent omission?",
+    "status": "PASS",
+    "target_articles": [
+      "2A"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4",
+      "5",
+      "6",
+      "342",
+      "371E"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 17689,
+    "retrieval_length_words": 2553
+  },
+  {
+    "id": "Q006",
+    "query": "What parameters define the official name and territorial extent of the Union as outlined in the opening provision of the Constitution?",
+    "status": "PASS",
+    "target_articles": [
+      "1"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 501,
+    "retrieval_length_words": 83
+  },
+  {
+    "id": "Q007",
+    "query": "In altering a state's boundaries, what procedural role does the state legislature play regarding presidential recommendations?",
+    "status": "FAIL",
+    "target_articles": [
+      "3"
+    ],
+    "found_articles": [],
+    "missing": [
+      "3"
+    ],
+    "retrieval_length_chars": 4717,
+    "retrieval_length_words": 750
+  },
+  {
+    "id": "Q008",
+    "query": "How are incidental and consequential provisions regarding representation in Parliament and state legislatures handled when a new state is formed?",
+    "status": "PASS",
+    "target_articles": [
+      "4"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4",
+      "5",
+      "79",
+      "80",
+      "82",
+      "83",
+      "84",
+      "167",
+      "168",
+      "169",
+      "171",
+      "172",
+      "173",
+      "244",
+      "315",
+      "316"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 40378,
+    "retrieval_length_words": 6558
+  },
+  {
+    "id": "Q009",
+    "query": "Can a presidential reference regarding state boundary reorganization override the opinions expressed by the concerned state legislature?",
+    "status": "FAIL",
+    "target_articles": [
+      "3"
+    ],
+    "found_articles": [],
+    "missing": [
+      "3"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q010",
+    "query": "What specific schedules of the Constitution are explicitly modified by laws enacted under Articles 2 and 3 regarding representation and territory?",
+    "status": "PASS",
+    "target_articles": [
+      "4"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "2A",
+      "3",
+      "4"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2216,
+    "retrieval_length_words": 363
+  },
+  {
+    "id": "Q011",
+    "query": "Who was deemed a citizen of India at the commencement of the Constitution based on domicile within the territory of India?",
+    "status": "PASS",
+    "target_articles": [
+      "5"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "367",
+      "372"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 16214,
+    "retrieval_length_words": 2684
+  },
+  {
+    "id": "Q012",
+    "query": "What specific migration date from Pakistan distinguishes the citizenship acquisition rights of persons under Article 6?",
+    "status": "PASS",
+    "target_articles": [
+      "6"
+    ],
+    "found_articles": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4585,
+    "retrieval_length_words": 782
+  },
+  {
+    "id": "Q013",
+    "query": "What legal consequences follow for an Indian citizen who voluntarily acquires the citizenship of any foreign State?",
+    "status": "PASS",
+    "target_articles": [
+      "9"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "104",
+      "191",
+      "193"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 17874,
+    "retrieval_length_words": 3081
+  },
+  {
+    "id": "Q014",
+    "query": "How does the Constitution ensure the continuous survival of citizenship rights for individuals already possessing them, subject to parliamentary legislation?",
+    "status": "PASS",
+    "target_articles": [
+      "10"
+    ],
+    "found_articles": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "299",
+      "300",
+      "300A"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4650,
+    "retrieval_length_words": 801
+  },
+  {
+    "id": "Q015",
+    "query": "What ultimate authority does the Constitution vest in Parliament to regulate all aspects of the right of citizenship by law?",
+    "status": "PASS",
+    "target_articles": [
+      "11"
+    ],
+    "found_articles": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "32"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4531,
+    "retrieval_length_words": 744
+  },
+  {
+    "id": "Q016",
+    "query": "What registration or residence duration requirements historically applied to individuals migrating from Pakistan under constitutional transitional provisions?",
+    "status": "PASS",
+    "target_articles": [
+      "6"
+    ],
+    "found_articles": [
+      "5",
+      "6",
+      "7"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1964,
+    "retrieval_length_words": 342
+  },
+  {
+    "id": "Q017",
+    "query": "How does the Constitution protect the citizenship rights of persons of Indian origin residing outside India who register with diplomatic representatives?",
+    "status": "PASS",
+    "target_articles": [
+      "8"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "29",
+      "30",
+      "367"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 15059,
+    "retrieval_length_words": 2491
+  },
+  {
+    "id": "Q018",
+    "query": "Does the acquisition of foreign citizenship automatically terminate an individual's domicile and civil rights within India?",
+    "status": "PASS",
+    "target_articles": [
+      "9"
+    ],
+    "found_articles": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "191",
+      "193"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 17524,
+    "retrieval_length_words": 2882
+  },
+  {
+    "id": "Q019",
+    "query": "What evidentiary proof or declarations were initially required for migrants returning to India from Pakistan under valid permits for resettlement?",
+    "status": "FAIL",
+    "target_articles": [
+      "7"
+    ],
+    "found_articles": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "missing": [
+      "7"
+    ],
+    "retrieval_length_chars": 2114,
+    "retrieval_length_words": 363
+  },
+  {
+    "id": "Q020",
+    "query": "How do parliamentary enactments like the Citizenship Act interact with constitutional provisions on citizenship continuity?",
+    "status": "PASS",
+    "target_articles": [
+      "11"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "79",
+      "80",
+      "82",
+      "83",
+      "84",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "104",
+      "167",
+      "168",
+      "169",
+      "171",
+      "172",
+      "173",
+      "191",
+      "193"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 33624,
+    "retrieval_length_words": 5603
+  },
+  {
+    "id": "Q021",
+    "query": "Which governmental and statutory authorities are collectively encompassed within the expansive definition of \"State\" for the enforcement of fundamental rights?",
+    "status": "FAIL",
+    "target_articles": [
+      "12"
+    ],
+    "found_articles": [],
+    "missing": [
+      "12"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q022",
+    "query": "What legal doctrine invalidates pre-constitutional and post-constitutional laws to the extent that they are inconsistent with fundamental rights?",
+    "status": "PASS",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [
+      "12",
+      "13"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3651,
+    "retrieval_length_words": 597
+  },
+  {
+    "id": "Q023",
+    "query": "Can an ordinary legislative enactment override fundamental rights without undergoing formal constitutional amendment procedures?",
+    "status": "PASS",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [
+      "12",
+      "13"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1493,
+    "retrieval_length_words": 243
+  },
+  {
+    "id": "Q024",
+    "query": "Does the definition of \"State\" under Article 12 extend to non-statutory bodies or private entities discharging public functions?",
+    "status": "FAIL",
+    "target_articles": [
+      "12"
+    ],
+    "found_articles": [
+      "73",
+      "74",
+      "75"
+    ],
+    "missing": [
+      "12"
+    ],
+    "retrieval_length_chars": 3706,
+    "retrieval_length_words": 624
+  },
+  {
+    "id": "Q025",
+    "query": "How does the concept of \"law\" under Article 13 include ordinances, orders, bylaws, rules, regulations, and custom or usage?",
+    "status": "PASS",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [
+      "12",
+      "13"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1493,
+    "retrieval_length_words": 243
+  },
+  {
+    "id": "Q026",
+    "query": "Are constitutional amendment acts themselves subject to judicial review if they violate the basic structure or fundamental rights?",
+    "status": "FAIL",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [],
+    "missing": [
+      "13"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q027",
+    "query": "What is the constitutional standing of laws enacted prior to January 26, 1950, when evaluated against Part III rights?",
+    "status": "FAIL",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [
+      "17",
+      "18",
+      "27",
+      "28",
+      "31"
+    ],
+    "missing": [
+      "13"
+    ],
+    "retrieval_length_chars": 8780,
+    "retrieval_length_words": 1381
+  },
+  {
+    "id": "Q028",
+    "query": "Does the waiver of fundamental rights by an individual citizen hold legal validity under Indian constitutional jurisprudence?",
+    "status": "FAIL",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [
+      "17",
+      "18",
+      "79",
+      "80",
+      "82",
+      "83",
+      "84",
+      "225",
+      "227",
+      "312"
+    ],
+    "missing": [
+      "13"
+    ],
+    "retrieval_length_chars": 17233,
+    "retrieval_length_words": 2768
+  },
+  {
+    "id": "Q029",
+    "query": "What specific judicial remedies exist when administrative actions by local authorities violate fundamental rights?",
+    "status": "FAIL",
+    "target_articles": [
+      "12"
+    ],
+    "found_articles": [
+      "225",
+      "227"
+    ],
+    "missing": [
+      "12"
+    ],
+    "retrieval_length_chars": 6023,
+    "retrieval_length_words": 988
+  },
+  {
+    "id": "Q030",
+    "query": "How do regulatory bodies funded substantially by the government qualify as instrumentalities of the State?",
+    "status": "FAIL",
+    "target_articles": [
+      "12"
+    ],
+    "found_articles": [],
+    "missing": [
+      "12"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q031",
+    "query": "What protection does the guarantee of equality before the law and equal protection of the laws afford to persons within the territory of India?",
+    "status": "PASS",
+    "target_articles": [
+      "14"
+    ],
+    "found_articles": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 853,
+    "retrieval_length_words": 139
+  },
+  {
+    "id": "Q032",
+    "query": "On what exhaustive grounds is the State prohibited from discriminating against any citizen under Article 15?",
+    "status": "PASS",
+    "target_articles": [
+      "15"
+    ],
+    "found_articles": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "23",
+      "24"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3884,
+    "retrieval_length_words": 629
+  },
+  {
+    "id": "Q033",
+    "query": "Does the prohibition of discrimination prevent the State from making special provisions for the advancement of socially and educationally backward classes?",
+    "status": "PASS",
+    "target_articles": [
+      "15"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "23",
+      "24",
+      "243P",
+      "243Q",
+      "243R",
+      "243S",
+      "243T",
+      "243U",
+      "243V",
+      "243W",
+      "243X",
+      "243Y",
+      "243Z",
+      "336",
+      "337",
+      "338",
+      "338A",
+      "338B",
+      "339",
+      "340",
+      "341",
+      "342",
+      "342A",
+      "367"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 48837,
+    "retrieval_length_words": 7823
+  },
+  {
+    "id": "Q034",
+    "query": "What scope of equality of opportunity is guaranteed to all citizens in matters relating to public employment or appointment?",
+    "status": "PASS",
+    "target_articles": [
+      "16"
+    ],
+    "found_articles": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2570,
+    "retrieval_length_words": 413
+  },
+  {
+    "id": "Q035",
+    "query": "Which specific social practice is completely abolished, and its practice in any form made a punishable offense punishable by law?",
+    "status": "PASS",
+    "target_articles": [
+      "17"
+    ],
+    "found_articles": [
+      "17",
+      "18",
+      "23",
+      "24"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2287,
+    "retrieval_length_words": 372
+  },
+  {
+    "id": "Q036",
+    "query": "What restrictions govern the conferment of titles by the State, and under what conditions can citizens accept titles from foreign states?",
+    "status": "PASS",
+    "target_articles": [
+      "18"
+    ],
+    "found_articles": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "191",
+      "193"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5576,
+    "retrieval_length_words": 933
+  },
+  {
+    "id": "Q037",
+    "query": "Can academic or military distinctions be conferred by the State without violating the constitutional prohibition against titles?",
+    "status": "PASS",
+    "target_articles": [
+      "18"
+    ],
+    "found_articles": [
+      "17",
+      "18",
+      "308",
+      "309",
+      "310"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6044,
+    "retrieval_length_words": 1016
+  },
+  {
+    "id": "Q038",
+    "query": "What provisions allow special educational provisions or admissions policies for economically weaker sections or backward classes?",
+    "status": "FAIL",
+    "target_articles": [
+      "15"
+    ],
+    "found_articles": [
+      "16",
+      "336",
+      "337",
+      "338",
+      "338A",
+      "338B",
+      "339",
+      "340",
+      "341",
+      "342",
+      "342A"
+    ],
+    "missing": [
+      "15"
+    ],
+    "retrieval_length_chars": 20562,
+    "retrieval_length_words": 3245
+  },
+  {
+    "id": "Q039",
+    "query": "Does equality of opportunity in public employment bar the reservation of appointments in favor of any backward class inadequately represented?",
+    "status": "PASS",
+    "target_articles": [
+      "16"
+    ],
+    "found_articles": [
+      "16",
+      "243P",
+      "243Q",
+      "243R",
+      "243S",
+      "243T",
+      "243U",
+      "243V",
+      "243W",
+      "243X",
+      "243Y",
+      "243Z"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 17929,
+    "retrieval_length_words": 2881
+  },
+  {
+    "id": "Q040",
+    "query": "How does the Constitution treat discrimination solely based on place of birth versus residence-based qualifications for employment?",
+    "status": "PASS",
+    "target_articles": [
+      "15",
+      "16"
+    ],
+    "found_articles": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3159,
+    "retrieval_length_words": 512
+  },
+  {
+    "id": "Q041",
+    "query": "Can private educational institutions be subjected to state-mandated reservations for socially backward classes?",
+    "status": "PASS",
+    "target_articles": [
+      "15"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "66",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "88",
+      "89",
+      "90",
+      "91",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "126",
+      "127",
+      "128",
+      "129",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "152",
+      "153",
+      "154",
+      "155",
+      "156",
+      "157",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "166",
+      "167",
+      "168",
+      "169",
+      "170",
+      "171",
+      "172",
+      "173",
+      "174",
+      "175",
+      "176",
+      "177",
+      "178",
+      "179",
+      "180",
+      "181",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186",
+      "187",
+      "188",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "200",
+      "201",
+      "202",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "229",
+      "230",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "238",
+      "239",
+      "240",
+      "241",
+      "242",
+      "243",
+      "244",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "259",
+      "260",
+      "261",
+      "262",
+      "263",
+      "264",
+      "265",
+      "266",
+      "267",
+      "268",
+      "269",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "281",
+      "282",
+      "283",
+      "284",
+      "339",
+      "340",
+      "341",
+      "367"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 53959,
+    "retrieval_length_words": 8662
+  },
+  {
+    "id": "Q042",
+    "query": "What constitutes \"untouchability\" within the legal framework enforcing its abolition under Article 17?",
+    "status": "PASS",
+    "target_articles": [
+      "17"
+    ],
+    "found_articles": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1825,
+    "retrieval_length_words": 294
+  },
+  {
+    "id": "Q043",
+    "query": "Are foreign nationals entitled to invoke the guarantee of equality before the law and equal protection of the laws?",
+    "status": "PASS",
+    "target_articles": [
+      "14"
+    ],
+    "found_articles": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 853,
+    "retrieval_length_words": 139
+  },
+  {
+    "id": "Q044",
+    "query": "How do reasonable classifications created by statutes satisfy the test of equal protection under the law?",
+    "status": "FAIL",
+    "target_articles": [
+      "14"
+    ],
+    "found_articles": [
+      "3B"
+    ],
+    "missing": [
+      "14"
+    ],
+    "retrieval_length_chars": 3417,
+    "retrieval_length_words": 534
+  },
+  {
+    "id": "Q045",
+    "query": "Does the guarantee against discrimination apply to tax impositions or fee structures levied by local governing bodies?",
+    "status": "FAIL",
+    "target_articles": [
+      "15"
+    ],
+    "found_articles": [],
+    "missing": [
+      "15"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q046",
+    "query": "What specific democratic freedoms\u2014including speech, assembly, association, movement, residence, and profession\u2014are guaranteed to citizens?",
+    "status": "PASS",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [
+      "19"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2208,
+    "retrieval_length_words": 357
+  },
+  {
+    "id": "Q047",
+    "query": "On what specific sovereign grounds can the State impose reasonable restrictions on freedom of speech and expression?",
+    "status": "PASS",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [
+      "19",
+      "20",
+      "21",
+      "22",
+      "301",
+      "302",
+      "303",
+      "304",
+      "306",
+      "307"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 7624,
+    "retrieval_length_words": 1252
+  },
+  {
+    "id": "Q048",
+    "query": "What procedural and substantive protections are guaranteed to individuals in respect of conviction for criminal offenses, including protection against ex-post-facto laws?",
+    "status": "PASS",
+    "target_articles": [
+      "20"
+    ],
+    "found_articles": [
+      "19",
+      "20",
+      "21",
+      "21A",
+      "22"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2341,
+    "retrieval_length_words": 390
+  },
+  {
+    "id": "Q049",
+    "query": "How does the constitutional protection against double jeopardy and self-incrimination apply during criminal investigations?",
+    "status": "FAIL",
+    "target_articles": [
+      "20"
+    ],
+    "found_articles": [],
+    "missing": [
+      "20"
+    ],
+    "retrieval_length_chars": 4717,
+    "retrieval_length_words": 750
+  },
+  {
+    "id": "Q050",
+    "query": "What fundamental guarantee ensures that no person is deprived of their life or personal liberty except according to procedure established by law?",
+    "status": "PASS",
+    "target_articles": [
+      "21"
+    ],
+    "found_articles": [
+      "20",
+      "21",
+      "22",
+      "299",
+      "300",
+      "300A"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6205,
+    "retrieval_length_words": 1071
+  },
+  {
+    "id": "Q051",
+    "query": "What specific educational entitlement was introduced to guarantee free and compulsory education to all children in the specified age group?",
+    "status": "FAIL",
+    "target_articles": [
+      "21A"
+    ],
+    "found_articles": [
+      "20",
+      "21",
+      "22"
+    ],
+    "missing": [
+      "21A"
+    ],
+    "retrieval_length_chars": 2064,
+    "retrieval_length_words": 349
+  },
+  {
+    "id": "Q052",
+    "query": "What constitutional safeguards protect individuals against arbitrary arrest and detention, including the right to be informed of grounds and consult legal counsel?",
+    "status": "PASS",
+    "target_articles": [
+      "22"
+    ],
+    "found_articles": [
+      "19",
+      "20",
+      "21",
+      "21A",
+      "22"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2341,
+    "retrieval_length_words": 390
+  },
+  {
+    "id": "Q053",
+    "query": "Under what maximum time frame must an arrested person be produced before the nearest magistrate following their apprehension?",
+    "status": "FAIL",
+    "target_articles": [
+      "22"
+    ],
+    "found_articles": [],
+    "missing": [
+      "22"
+    ],
+    "retrieval_length_chars": 1012,
+    "retrieval_length_words": 175
+  },
+  {
+    "id": "Q054",
+    "query": "What exceptions to standard arrest protections apply to preventive detention laws and enemy aliens?",
+    "status": "FAIL",
+    "target_articles": [
+      "22"
+    ],
+    "found_articles": [],
+    "missing": [
+      "22"
+    ],
+    "retrieval_length_chars": 1012,
+    "retrieval_length_words": 175
+  },
+  {
+    "id": "Q055",
+    "query": "Can freedom of assembly be restricted to prevent public disorder, unlawful assembly, or breach of the peace?",
+    "status": "FAIL",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [],
+    "missing": [
+      "19"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q056",
+    "query": "What limits apply to trade, business, or occupation freedoms to prevent monopolies or protect public health?",
+    "status": "FAIL",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [],
+    "missing": [
+      "19"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q057",
+    "query": "How do preventive detention safeguards limit the maximum duration a person can be detained without an advisory board's review?",
+    "status": "FAIL",
+    "target_articles": [
+      "22"
+    ],
+    "found_articles": [],
+    "missing": [
+      "22"
+    ],
+    "retrieval_length_chars": 2548,
+    "retrieval_length_words": 431
+  },
+  {
+    "id": "Q058",
+    "query": "Does the right to life encompass environmental protection, privacy, and medical care under judicial interpretation?",
+    "status": "FAIL",
+    "target_articles": [
+      "21"
+    ],
+    "found_articles": [],
+    "missing": [
+      "21"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q059",
+    "query": "What safeguards prevent the application of criminal penalties retrospectively for acts that were not offenses when committed?",
+    "status": "FAIL",
+    "target_articles": [
+      "20"
+    ],
+    "found_articles": [],
+    "missing": [
+      "20"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q060",
+    "query": "Can compulsory service for public purposes be imposed by the State without violating personal liberty protections?",
+    "status": "PASS",
+    "target_articles": [
+      "21"
+    ],
+    "found_articles": [
+      "5",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "308",
+      "309",
+      "310",
+      "317",
+      "318",
+      "319",
+      "320",
+      "321",
+      "322",
+      "323"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 22650,
+    "retrieval_length_words": 3832
+  },
+  {
+    "id": "Q061",
+    "query": "What procedural review protects advisory boards evaluating the extension of preventive detention orders?",
+    "status": "FAIL",
+    "target_articles": [
+      "22"
+    ],
+    "found_articles": [],
+    "missing": [
+      "22"
+    ],
+    "retrieval_length_chars": 1537,
+    "retrieval_length_words": 257
+  },
+  {
+    "id": "Q062",
+    "query": "How does freedom of association include the right to form trade unions, political parties, or cooperative societies?",
+    "status": "PASS",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [
+      "19"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2208,
+    "retrieval_length_words": 357
+  },
+  {
+    "id": "Q063",
+    "query": "Are restrictions on movement within the territory of India permissible for the protection of scheduled tribes' interests?",
+    "status": "PASS",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [
+      "4",
+      "5",
+      "19",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "301",
+      "302",
+      "303",
+      "304",
+      "306",
+      "307",
+      "330",
+      "331",
+      "332",
+      "333",
+      "334",
+      "335"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 20737,
+    "retrieval_length_words": 3349
+  },
+  {
+    "id": "Q064",
+    "query": "What parameters define a \"procedure established by law\" versus \"due process\" in personal liberty jurisprudence?",
+    "status": "PASS",
+    "target_articles": [
+      "21"
+    ],
+    "found_articles": [
+      "20",
+      "21",
+      "22"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2064,
+    "retrieval_length_words": 349
+  },
+  {
+    "id": "Q065",
+    "query": "Does protection against self-incrimination bar the compulsory collection of handwriting samples or DNA profiling?",
+    "status": "FAIL",
+    "target_articles": [
+      "20"
+    ],
+    "found_articles": [],
+    "missing": [
+      "20"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q066",
+    "query": "What constitutional provision prohibits human trafficking, begar, and other forms of forced labor?",
+    "status": "PASS",
+    "target_articles": [
+      "23"
+    ],
+    "found_articles": [
+      "23",
+      "24"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 880,
+    "retrieval_length_words": 140
+  },
+  {
+    "id": "Q067",
+    "query": "Under what age threshold is the employment of children prohibited in any factory, mine, or hazardous employment?",
+    "status": "PASS",
+    "target_articles": [
+      "24"
+    ],
+    "found_articles": [
+      "23",
+      "24"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 726,
+    "retrieval_length_words": 118
+  },
+  {
+    "id": "Q068",
+    "query": "Can the State impose compulsory public service for societal purposes, such as military service or social infrastructure work, without violating exploitation bans?",
+    "status": "PASS",
+    "target_articles": [
+      "23"
+    ],
+    "found_articles": [
+      "23",
+      "24",
+      "308",
+      "309",
+      "310"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2977,
+    "retrieval_length_words": 508
+  },
+  {
+    "id": "Q069",
+    "query": "What penalties and enforcement mechanisms back the absolute prohibition of traffic in human beings?",
+    "status": "PASS",
+    "target_articles": [
+      "23"
+    ],
+    "found_articles": [
+      "23",
+      "24"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 880,
+    "retrieval_length_words": 140
+  },
+  {
+    "id": "Q070",
+    "query": "Does the prohibition of child labor extend to non-hazardous domestic or family-run traditional occupations under statutory adjustments?",
+    "status": "PASS",
+    "target_articles": [
+      "24"
+    ],
+    "found_articles": [
+      "23",
+      "24"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 726,
+    "retrieval_length_words": 118
+  },
+  {
+    "id": "Q071",
+    "query": "How do anti-trafficking laws interpret forced labor where economic duress compels continuous employment?",
+    "status": "FAIL",
+    "target_articles": [
+      "23"
+    ],
+    "found_articles": [],
+    "missing": [
+      "23"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q072",
+    "query": "Are bonded labor systems and debt bondage unconstitutional under the broader mandate against forced labor?",
+    "status": "FAIL",
+    "target_articles": [
+      "23"
+    ],
+    "found_articles": [],
+    "missing": [
+      "23"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q073",
+    "query": "What exceptions exist for compulsory community service ordered by a court during sentencing for a crime?",
+    "status": "FAIL",
+    "target_articles": [
+      "23"
+    ],
+    "found_articles": [],
+    "missing": [
+      "23"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q074",
+    "query": "How do legislative protections safeguard adolescent workers from exploitation in non-hazardous industries?",
+    "status": "FAIL",
+    "target_articles": [
+      "24"
+    ],
+    "found_articles": [],
+    "missing": [
+      "24"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q075",
+    "query": "What supervisory role do labor inspectorates play in enforcing child employment prohibitions across commercial sectors?",
+    "status": "FAIL",
+    "target_articles": [
+      "24"
+    ],
+    "found_articles": [],
+    "missing": [
+      "24"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q076",
+    "query": "What fundamental freedom guarantees the right to freely profess, practice, and propagate religion subject to public order, morality, and health?",
+    "status": "PASS",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1729,
+    "retrieval_length_words": 261
+  },
+  {
+    "id": "Q077",
+    "query": "What autonomy do religious denominations possess to manage their own affairs in matters of religion and establish charitable institutions?",
+    "status": "PASS",
+    "target_articles": [
+      "26"
+    ],
+    "found_articles": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3110,
+    "retrieval_length_words": 476
+  },
+  {
+    "id": "Q078",
+    "query": "What protection is afforded to individuals regarding freedom from payment of taxes specifically promoted for the maintenance of any particular religion?",
+    "status": "PASS",
+    "target_articles": [
+      "27"
+    ],
+    "found_articles": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1732,
+    "retrieval_length_words": 267
+  },
+  {
+    "id": "Q079",
+    "query": "Can religious instruction be imparted in educational institutions wholly maintained out of state funds?",
+    "status": "PASS",
+    "target_articles": [
+      "28"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "80",
+      "81",
+      "82",
+      "83",
+      "85"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 14189,
+    "retrieval_length_words": 2197
+  },
+  {
+    "id": "Q080",
+    "query": "What protections apply to attendees of educational institutions recognized or aided by the State regarding compulsory participation in religious instruction or worship?",
+    "status": "PASS",
+    "target_articles": [
+      "28"
+    ],
+    "found_articles": [
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6778,
+    "retrieval_length_words": 1083
+  },
+  {
+    "id": "Q081",
+    "query": "Does the freedom to propagate religion include the right to convert another person through coercion, fraud, or force?",
+    "status": "PASS",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1729,
+    "retrieval_length_words": 261
+  },
+  {
+    "id": "Q082",
+    "query": "Can the State regulate or restrict secular economic, financial, or political activities associated with religious practices?",
+    "status": "PASS",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [
+      "4",
+      "5",
+      "25",
+      "26"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4552,
+    "retrieval_length_words": 735
+  },
+  {
+    "id": "Q083",
+    "query": "What provisions permit the State to undertake social welfare reforms, opening Hindu religious institutions of a public character to all classes of Hindus?",
+    "status": "PASS",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [
+      "25",
+      "26"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1379,
+    "retrieval_length_words": 210
+  },
+  {
+    "id": "Q084",
+    "query": "How does the constitutional framework balance freedom of conscience with state police powers during communal tensions?",
+    "status": "FAIL",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [],
+    "missing": [
+      "25"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q085",
+    "query": "Are religious denominations permitted to acquire, own, and administer movable and immovable property in accordance with law?",
+    "status": "PASS",
+    "target_articles": [
+      "26"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "21",
+      "22",
+      "23",
+      "24",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 16391,
+    "retrieval_length_words": 2633
+  },
+  {
+    "id": "Q086",
+    "query": "Does freedom of religion protect essential religious practices from arbitrary legislative or executive interference?",
+    "status": "PASS",
+    "target_articles": [
+      "25",
+      "26"
+    ],
+    "found_articles": [
+      "25",
+      "26"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1379,
+    "retrieval_length_words": 210
+  },
+  {
+    "id": "Q087",
+    "query": "Can educational institutions established by religious minorities impart religious instruction without state prohibition?",
+    "status": "PASS",
+    "target_articles": [
+      "28"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "12B",
+      "13",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "80",
+      "81",
+      "82",
+      "83",
+      "85",
+      "336",
+      "337",
+      "338"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 34031,
+    "retrieval_length_words": 5405
+  },
+  {
+    "id": "Q088",
+    "query": "What rules govern the levy of general fees versus specific religious promotion taxes by public authorities?",
+    "status": "FAIL",
+    "target_articles": [
+      "27"
+    ],
+    "found_articles": [],
+    "missing": [
+      "27"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q089",
+    "query": "Are conscientious objectors granted exemptions from statutory duties based on religious tenets under Indian law?",
+    "status": "FAIL",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [],
+    "missing": [
+      "25"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q090",
+    "query": "How do secularism principles under the constitutional framework treat equal respect for all religions (Sarva Dharma Sambhav)?",
+    "status": "FAIL",
+    "target_articles": [
+      "25"
+    ],
+    "found_articles": [],
+    "missing": [
+      "25"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q091",
+    "query": "What constitutional protections are guaranteed to minorities to conserve their distinct language, script, or culture?",
+    "status": "PASS",
+    "target_articles": [
+      "29"
+    ],
+    "found_articles": [
+      "29",
+      "30"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 697,
+    "retrieval_length_words": 109
+  },
+  {
+    "id": "Q092",
+    "query": "What fundamental right do all religious and linguistic minorities have to establish and administer educational institutions of their choice?",
+    "status": "PASS",
+    "target_articles": [
+      "30"
+    ],
+    "found_articles": [
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6584,
+    "retrieval_length_words": 1037
+  },
+  {
+    "id": "Q093",
+    "query": "Can the State discriminate against any educational institution in granting aid on the ground that it is managed by a minority community?",
+    "status": "PASS",
+    "target_articles": [
+      "30"
+    ],
+    "found_articles": [
+      "29",
+      "30",
+      "31"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6727,
+    "retrieval_length_words": 1076
+  },
+  {
+    "id": "Q094",
+    "query": "What historical property acquisition article relating to the right to property was omitted from Part III?",
+    "status": "PASS",
+    "target_articles": [
+      "31"
+    ],
+    "found_articles": [
+      "31"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3719,
+    "retrieval_length_words": 575
+  },
+  {
+    "id": "Q095",
+    "query": "How do minority administration rights balance with state regulations aimed at maintaining academic standards and staff qualifications?",
+    "status": "FAIL",
+    "target_articles": [
+      "30"
+    ],
+    "found_articles": [
+      "308",
+      "309",
+      "310"
+    ],
+    "missing": [
+      "30"
+    ],
+    "retrieval_length_chars": 2252,
+    "retrieval_length_words": 391
+  },
+  {
+    "id": "Q096",
+    "query": "Can the State mandate a specific percentage of admissions for general category students in minority-run professional institutions?",
+    "status": "FAIL",
+    "target_articles": [
+      "30"
+    ],
+    "found_articles": [
+      "336",
+      "337",
+      "338"
+    ],
+    "missing": [
+      "30"
+    ],
+    "retrieval_length_chars": 11517,
+    "retrieval_length_words": 1831
+  },
+  {
+    "id": "Q097",
+    "query": "What criteria determine whether a community qualifies as a linguistic or religious minority for educational protections?",
+    "status": "PASS",
+    "target_articles": [
+      "29",
+      "30"
+    ],
+    "found_articles": [
+      "29",
+      "30"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 697,
+    "retrieval_length_words": 109
+  },
+  {
+    "id": "Q098",
+    "query": "Are minority institutions exempt from following national curricula or teacher eligibility standards?",
+    "status": "FAIL",
+    "target_articles": [
+      "30"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "31",
+      "32",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "80",
+      "81",
+      "82",
+      "83",
+      "85",
+      "336",
+      "337",
+      "338"
+    ],
+    "missing": [
+      "30"
+    ],
+    "retrieval_length_chars": 18928,
+    "retrieval_length_words": 2945
+  },
+  {
+    "id": "Q099",
+    "query": "How does the Constitution protect citizens from being denied admission to state-maintained educational institutions based solely on religion, race, caste, or language?",
+    "status": "PASS",
+    "target_articles": [
+      "29"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "14",
+      "15",
+      "16",
+      "20",
+      "21",
+      "22",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "80",
+      "81",
+      "82",
+      "83",
+      "85"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 20477,
+    "retrieval_length_words": 3225
+  },
+  {
+    "id": "Q100",
+    "query": "What oversight mechanisms ensure that state financial aid to minority institutions is distributed equitably?",
+    "status": "FAIL",
+    "target_articles": [
+      "30"
+    ],
+    "found_articles": [],
+    "missing": [
+      "30"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q101",
+    "query": "What protective shield does Article 31A provide to laws providing for the acquisition of estates or modification of agrarian rights against challenges under Articles 14 and 19?",
+    "status": "PASS",
+    "target_articles": [
+      "31A"
+    ],
+    "found_articles": [
+      "31",
+      "31A",
+      "31B",
+      "31C",
+      "31D",
+      "323A",
+      "323B"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 9410,
+    "retrieval_length_words": 1478
+  },
+  {
+    "id": "Q102",
+    "query": "Which specific schedule contains Acts and Regulations immunized from judicial review through the validation mechanism of Article 31B?",
+    "status": "PASS",
+    "target_articles": [
+      "31B"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "31A",
+      "31B",
+      "31C",
+      "31D",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "66",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "88",
+      "89",
+      "90",
+      "91",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "126",
+      "127",
+      "128",
+      "129",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "152",
+      "153",
+      "154",
+      "155",
+      "156",
+      "157",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "166",
+      "167",
+      "168",
+      "169",
+      "170",
+      "171",
+      "172",
+      "173",
+      "174",
+      "175",
+      "176",
+      "177",
+      "178",
+      "179",
+      "180",
+      "181",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186",
+      "187",
+      "188",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "200",
+      "201",
+      "202",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "229",
+      "230",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "238",
+      "239",
+      "240",
+      "241",
+      "242",
+      "243",
+      "244",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "259",
+      "260",
+      "261",
+      "262",
+      "263",
+      "264",
+      "265",
+      "266",
+      "267",
+      "268",
+      "269",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "281",
+      "282",
+      "283",
+      "284"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 32345,
+    "retrieval_length_words": 5133
+  },
+  {
+    "id": "Q103",
+    "query": "Under Article 31C, how are laws giving effect to certain directive principles protected from being declared void for inconsistency with Articles 14 or 19?",
+    "status": "PASS",
+    "target_articles": [
+      "31C"
+    ],
+    "found_articles": [
+      "31A",
+      "31B",
+      "31C",
+      "31D"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4349,
+    "retrieval_length_words": 692
+  },
+  {
+    "id": "Q104",
+    "query": "Which omitted constitutional provision historically sought to save laws enacted in respect of anti-national activities?",
+    "status": "PASS",
+    "target_articles": [
+      "31D"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "31A",
+      "31B",
+      "31C",
+      "31D",
+      "325",
+      "326",
+      "327",
+      "328",
+      "329",
+      "342"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 9333,
+    "retrieval_length_words": 1462
+  },
+  {
+    "id": "Q105",
+    "query": "What presidential assent requirements must state legislation meet to gain protection under Article 31A regarding agrarian reform?",
+    "status": "FAIL",
+    "target_articles": [
+      "31A"
+    ],
+    "found_articles": [
+      "1",
+      "12B",
+      "13",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "323A",
+      "323B"
+    ],
+    "missing": [
+      "31A"
+    ],
+    "retrieval_length_chars": 21196,
+    "retrieval_length_words": 3454
+  },
+  {
+    "id": "Q106",
+    "query": "Can statutes placed in the Ninth Schedule be reviewed by the judiciary if they violate the basic structure of the Constitution?",
+    "status": "FAIL",
+    "target_articles": [
+      "31B"
+    ],
+    "found_articles": [],
+    "missing": [
+      "31B"
+    ],
+    "retrieval_length_chars": 10914,
+    "retrieval_length_words": 1491
+  },
+  {
+    "id": "Q107",
+    "query": "What nexus must exist between a statute and directive principles under Article 31C for it to enjoy immunity?",
+    "status": "FAIL",
+    "target_articles": [
+      "31C"
+    ],
+    "found_articles": [],
+    "missing": [
+      "31C"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q108",
+    "query": "How do ceiling laws on agricultural land holdings derive constitutional validity from saving provisions?",
+    "status": "FAIL",
+    "target_articles": [
+      "31A"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "66",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "88",
+      "89",
+      "90",
+      "91",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "126",
+      "127",
+      "128",
+      "129",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "152",
+      "153",
+      "154",
+      "155",
+      "156",
+      "157",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "166",
+      "167",
+      "168",
+      "169",
+      "170",
+      "171",
+      "172",
+      "173",
+      "174",
+      "175",
+      "176",
+      "177",
+      "178",
+      "179",
+      "180",
+      "181",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186",
+      "187",
+      "188",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "200",
+      "201",
+      "202",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "229",
+      "230",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "238",
+      "239",
+      "240",
+      "241",
+      "242",
+      "243",
+      "244",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "259",
+      "260",
+      "261",
+      "262",
+      "263",
+      "264",
+      "265",
+      "266",
+      "267",
+      "268",
+      "269",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "281",
+      "282",
+      "283",
+      "284"
+    ],
+    "missing": [
+      "31A"
+    ],
+    "retrieval_length_chars": 29141,
+    "retrieval_length_words": 4659
+  },
+  {
+    "id": "Q109",
+    "query": "What safeguards prevent the arbitrary inclusion of ordinary regulatory laws into the Ninth Schedule without agrarian reform nexus?",
+    "status": "FAIL",
+    "target_articles": [
+      "31B"
+    ],
+    "found_articles": [],
+    "missing": [
+      "31B"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q110",
+    "query": "How do validation acts protect state land tenure reforms from protracted litigation in high courts?",
+    "status": "FAIL",
+    "target_articles": [
+      "31B"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "66",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "88",
+      "89",
+      "90",
+      "91",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "126",
+      "127",
+      "128",
+      "129",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "152",
+      "153",
+      "154",
+      "155",
+      "156",
+      "157",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "166",
+      "167",
+      "168",
+      "169",
+      "170",
+      "171",
+      "172",
+      "173",
+      "174",
+      "175",
+      "176",
+      "177",
+      "178",
+      "179",
+      "180",
+      "181",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186",
+      "187",
+      "188",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "200",
+      "201",
+      "202",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "229",
+      "230",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "238",
+      "239",
+      "240",
+      "241",
+      "242",
+      "243",
+      "244",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "259",
+      "260",
+      "261",
+      "262",
+      "263",
+      "264",
+      "265",
+      "266",
+      "267",
+      "268",
+      "269",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "281",
+      "282",
+      "283",
+      "284"
+    ],
+    "missing": [
+      "31B"
+    ],
+    "retrieval_length_chars": 33210,
+    "retrieval_length_words": 5310
+  },
+  {
+    "id": "Q111",
+    "query": "What significance did Dr. B.R. Ambedkar attribute to Article 32, calling it the \"heart and soul\" of the Constitution?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q112",
+    "query": "What specific prerogative writs can the Supreme Court issue for the enforcement of fundamental rights?",
+    "status": "PASS",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [
+      "32",
+      "225",
+      "227"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5701,
+    "retrieval_length_words": 920
+  },
+  {
+    "id": "Q113",
+    "query": "What was the scope and purpose of the omitted Article 32A regarding the constitutional validity of State laws in proceedings under Article 32?",
+    "status": "PASS",
+    "target_articles": [
+      "32A"
+    ],
+    "found_articles": [
+      "32",
+      "32A",
+      "33",
+      "34",
+      "35"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2381,
+    "retrieval_length_words": 379
+  },
+  {
+    "id": "Q114",
+    "query": "What power does Parliament possess under Article 33 to modify fundamental rights in their application to members of the Armed Forces or police?",
+    "status": "PASS",
+    "target_articles": [
+      "33"
+    ],
+    "found_articles": [
+      "32",
+      "32A",
+      "33",
+      "34",
+      "35",
+      "73",
+      "74",
+      "75"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6086,
+    "retrieval_length_words": 1002
+  },
+  {
+    "id": "Q115",
+    "query": "What restrictions can be placed on fundamental rights under Article 34 while martial law is in force in any area, including indemnification of acts done?",
+    "status": "PASS",
+    "target_articles": [
+      "34"
+    ],
+    "found_articles": [
+      "32",
+      "32A",
+      "33",
+      "34",
+      "35"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2279,
+    "retrieval_length_words": 380
+  },
+  {
+    "id": "Q116",
+    "query": "What legislative authority does Article 35 confer exclusively on Parliament to enact laws for giving effect to fundamental rights provisions?",
+    "status": "PASS",
+    "target_articles": [
+      "35"
+    ],
+    "found_articles": [
+      "32",
+      "32A",
+      "33",
+      "34",
+      "35",
+      "373",
+      "374"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5124,
+    "retrieval_length_words": 858
+  },
+  {
+    "id": "Q117",
+    "query": "Can the Supreme Court refuse to entertain a writ petition under Article 32 on the sole ground of alternative remedy availability?",
+    "status": "PASS",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [
+      "32",
+      "225",
+      "227"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5701,
+    "retrieval_length_words": 920
+  },
+  {
+    "id": "Q118",
+    "query": "How do public interest litigations (PILs) expand the traditional locus standi requirements under constitutional remedy provisions?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q119",
+    "query": "What indemnification powers does Parliament have under martial law for validating punishments inflicted during military rule?",
+    "status": "PASS",
+    "target_articles": [
+      "34"
+    ],
+    "found_articles": [
+      "34",
+      "35",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "72"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 13387,
+    "retrieval_length_words": 2293
+  },
+  {
+    "id": "Q120",
+    "query": "Why are matters concerning armed forces personnel discipline largely excluded from standard fundamental rights scrutiny?",
+    "status": "FAIL",
+    "target_articles": [
+      "33"
+    ],
+    "found_articles": [],
+    "missing": [
+      "33"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q121",
+    "query": "What distinguishes the writ jurisdiction of the Supreme Court under Article 32 from High Courts under Article 226?",
+    "status": "PASS",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [
+      "32",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "225",
+      "227"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 17004,
+    "retrieval_length_words": 2832
+  },
+  {
+    "id": "Q122",
+    "query": "Under what circumstances can the writ of habeas corpus be invoked against illegal detention by private or state actors?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q123",
+    "query": "What conditions must be met for a court to issue a writ of mandamus directing a public official to perform a statutory duty?",
+    "status": "PASS",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [
+      "32",
+      "225",
+      "227"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5701,
+    "retrieval_length_words": 920
+  },
+  {
+    "id": "Q124",
+    "query": "How does the writ of certiorari differ from prohibition in controlling subordinate judicial or quasi-judicial bodies?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q125",
+    "query": "What procedural requirements govern the issuance of a writ of quo warranto challenging a person holding a public office?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q126",
+    "query": "Can fundamental rights be suspended during a National Emergency, and how do Articles 32 and 226 react?",
+    "status": "PASS",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "32",
+      "225",
+      "227",
+      "358",
+      "359",
+      "360"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 11909,
+    "retrieval_length_words": 1972
+  },
+  {
+    "id": "Q127",
+    "query": "What legislative competence prevents state legislatures from enacting conflicting penalty laws for fundamental rights violations under Article 35?",
+    "status": "FAIL",
+    "target_articles": [
+      "35"
+    ],
+    "found_articles": [
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255"
+    ],
+    "missing": [
+      "35"
+    ],
+    "retrieval_length_chars": 5350,
+    "retrieval_length_words": 924
+  },
+  {
+    "id": "Q128",
+    "query": "How do compensatory jurisprudence remedies function when state authorities violate personal liberty under Article 21?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [
+      "20",
+      "21",
+      "22"
+    ],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 2064,
+    "retrieval_length_words": 349
+  },
+  {
+    "id": "Q129",
+    "query": "Are parliamentary laws modifying rights for intelligence or security forces subject to judicial review for arbitrariness?",
+    "status": "FAIL",
+    "target_articles": [
+      "33"
+    ],
+    "found_articles": [
+      "32"
+    ],
+    "missing": [
+      "33"
+    ],
+    "retrieval_length_chars": 1910,
+    "retrieval_length_words": 304
+  },
+  {
+    "id": "Q130",
+    "query": "What role do interim injunctions and stay orders play in constitutional remedy litigations before apex courts?",
+    "status": "FAIL",
+    "target_articles": [
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q131",
+    "query": "How does Article 36 define \"State\" for the purposes of Part IV in alignment with Part III?",
+    "status": "PASS",
+    "target_articles": [
+      "36"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "39A",
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5239,
+    "retrieval_length_words": 809
+  },
+  {
+    "id": "Q132",
+    "query": "What legal enforceability status do the principles contained in Part IV hold under Article 37?",
+    "status": "PASS",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "39A"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2221,
+    "retrieval_length_words": 363
+  },
+  {
+    "id": "Q133",
+    "query": "Despite lacking judicial enforceability, how do Directive Principles factor into the governance of the country and legislation?",
+    "status": "FAIL",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q134",
+    "query": "What duty does the State bear in applying Directive Principles when formulating laws and policies?",
+    "status": "PASS",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "39A",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "73",
+      "74",
+      "75",
+      "317",
+      "318",
+      "319",
+      "320",
+      "321",
+      "322",
+      "323"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 20771,
+    "retrieval_length_words": 3432
+  },
+  {
+    "id": "Q135",
+    "query": "How do Directive Principles act as a interpretive guide for courts examining the constitutionality of socio-economic legislation?",
+    "status": "FAIL",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q136",
+    "query": "What ideological foundation (socialist, Gandhian, liberal-intellectual) underpins the Directive Principles of State Policy?",
+    "status": "PASS",
+    "target_articles": [
+      "36",
+      "37"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "39A",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 7447,
+    "retrieval_length_words": 1143
+  },
+  {
+    "id": "Q137",
+    "query": "Can a constitutional amendment be challenged on the ground that it violates a non-enforceable Directive Principle?",
+    "status": "FAIL",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q138",
+    "query": "How do Directive Principles complement Fundamental Rights to establish a socioeconomic democracy alongside political democracy?",
+    "status": "FAIL",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q139",
+    "query": "What obligation does the State have to promote international peace and security under Part IV?",
+    "status": "FAIL",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "256",
+      "257",
+      "258",
+      "259",
+      "260",
+      "261",
+      "350",
+      "358",
+      "359",
+      "360"
+    ],
+    "missing": [
+      "37"
+    ],
+    "retrieval_length_chars": 20784,
+    "retrieval_length_words": 3355
+  },
+  {
+    "id": "Q140",
+    "query": "How do Directive Principles influence judicial rulings on welfare schemes and labor standards?",
+    "status": "FAIL",
+    "target_articles": [
+      "37"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q141",
+    "query": "What mandate does Article 38 place on the State to secure a social order promoting the welfare of the people and minimizing inequalities?",
+    "status": "PASS",
+    "target_articles": [
+      "38"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "39A"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2221,
+    "retrieval_length_words": 363
+  },
+  {
+    "id": "Q142",
+    "query": "What specific economic policies must the State direct its policy toward securing under Article 39, including resource distribution and equal pay?",
+    "status": "PASS",
+    "target_articles": [
+      "39"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4119,
+    "retrieval_length_words": 645
+  },
+  {
+    "id": "Q143",
+    "query": "What constitutional provision under Part IV guarantees equal justice and free legal aid to ensure opportunities for securing justice are not denied?",
+    "status": "PASS",
+    "target_articles": [
+      "39A"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "39A",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2519,
+    "retrieval_length_words": 387
+  },
+  {
+    "id": "Q144",
+    "query": "What steps must the State take to organize village panchayats as units of self-government under Gandhian principles?",
+    "status": "PASS",
+    "target_articles": [
+      "40"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "243",
+      "243A",
+      "243B",
+      "243C",
+      "243D",
+      "243E",
+      "243F",
+      "243G",
+      "243H",
+      "243I",
+      "243J",
+      "243K",
+      "243L",
+      "243M",
+      "243N",
+      "243O"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 20538,
+    "retrieval_length_words": 3347
+  },
+  {
+    "id": "Q145",
+    "query": "What provisions direct the State to secure right to work, education, and public assistance in cases of unemployment, old age, or sickness?",
+    "status": "PASS",
+    "target_articles": [
+      "41"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "308",
+      "309",
+      "310"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 14877,
+    "retrieval_length_words": 2341
+  },
+  {
+    "id": "Q146",
+    "query": "What humanitarian working conditions and maternity relief provisions must the State secure through legislation?",
+    "status": "PASS",
+    "target_articles": [
+      "42"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3470,
+    "retrieval_length_words": 524
+  },
+  {
+    "id": "Q147",
+    "query": "What living wage, decent standard of life, and cultural opportunities must the State endeavor to secure for workers?",
+    "status": "PASS",
+    "target_articles": [
+      "43"
+    ],
+    "found_articles": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 8398,
+    "retrieval_length_words": 1280
+  },
+  {
+    "id": "Q148",
+    "query": "What participation rights do workers have in the management of industries under directive provisions?",
+    "status": "PASS",
+    "target_articles": [
+      "43A"
+    ],
+    "found_articles": [
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5147,
+    "retrieval_length_words": 761
+  },
+  {
+    "id": "Q149",
+    "query": "How does the Constitution direct the State to promote cooperative societies through voluntary formation and autonomous functioning?",
+    "status": "FAIL",
+    "target_articles": [
+      "43B"
+    ],
+    "found_articles": [
+      "7",
+      "8",
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "256",
+      "257",
+      "258",
+      "259",
+      "260",
+      "261",
+      "308",
+      "309",
+      "310"
+    ],
+    "missing": [
+      "43B"
+    ],
+    "retrieval_length_chars": 24475,
+    "retrieval_length_words": 3936
+  },
+  {
+    "id": "Q150",
+    "query": "What endeavor must the State undertake to secure a Uniform Civil Code (UCC) throughout the territory of India?",
+    "status": "PASS",
+    "target_articles": [
+      "44"
+    ],
+    "found_articles": [
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3019,
+    "retrieval_length_words": 447
+  },
+  {
+    "id": "Q151",
+    "query": "What obligation does Article 45 establish regarding early childhood care and education for children below six years of age?",
+    "status": "PASS",
+    "target_articles": [
+      "45"
+    ],
+    "found_articles": [
+      "20",
+      "21",
+      "22",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6343,
+    "retrieval_length_words": 984
+  },
+  {
+    "id": "Q152",
+    "query": "How must the State promote with special care the educational and economic interests of Scheduled Castes, Scheduled Tribes, and weaker sections?",
+    "status": "PASS",
+    "target_articles": [
+      "46"
+    ],
+    "found_articles": [
+      "1",
+      "12B",
+      "13",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 14919,
+    "retrieval_length_words": 2397
+  },
+  {
+    "id": "Q153",
+    "query": "What duty does the State have to raise the level of nutrition and standard of living and improve public health, including prohibition of intoxicating drinks?",
+    "status": "PASS",
+    "target_articles": [
+      "47"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "308",
+      "309",
+      "310"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6531,
+    "retrieval_length_words": 1026
+  },
+  {
+    "id": "Q154",
+    "query": "What provisions govern the organization of agriculture and animal husbandry on modern and scientific lines, including the prohibition of cow slaughter?",
+    "status": "PASS",
+    "target_articles": [
+      "48"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "3B",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 16349,
+    "retrieval_length_words": 2480
+  },
+  {
+    "id": "Q155",
+    "query": "What environmental mandate does the State have to protect and improve the environment and safeguard forests and wildlife?",
+    "status": "PASS",
+    "target_articles": [
+      "48A"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 5697,
+    "retrieval_length_words": 861
+  },
+  {
+    "id": "Q156",
+    "query": "What obligation rests on the State to protect monuments, places, and objects of artistic or historic interest declared to be of national importance?",
+    "status": "PASS",
+    "target_articles": [
+      "49"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "3B",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "12",
+      "31",
+      "32",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "80",
+      "81",
+      "82",
+      "83",
+      "85",
+      "256",
+      "257",
+      "258",
+      "259",
+      "260",
+      "261"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 34967,
+    "retrieval_length_words": 5499
+  },
+  {
+    "id": "Q157",
+    "query": "How does the Constitution mandate the separation of the judiciary from the executive in the public services of the State?",
+    "status": "PASS",
+    "target_articles": [
+      "50"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "73",
+      "74",
+      "75",
+      "308",
+      "309",
+      "310",
+      "317",
+      "318",
+      "319",
+      "320",
+      "321",
+      "322",
+      "323"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 19855,
+    "retrieval_length_words": 3315
+  },
+  {
+    "id": "Q158",
+    "query": "What principles guide the promotion of international peace and security, maintenance of just relations between nations, and respect for international law?",
+    "status": "PASS",
+    "target_articles": [
+      "51"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4280,
+    "retrieval_length_words": 636
+  },
+  {
+    "id": "Q159",
+    "query": "Can the courts issue a mandamus compelling the legislature to enact a Uniform Civil Code under Article 44?",
+    "status": "PASS",
+    "target_articles": [
+      "44"
+    ],
+    "found_articles": [
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "225",
+      "227"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 6810,
+    "retrieval_length_words": 1063
+  },
+  {
+    "id": "Q160",
+    "query": "What protections are provided for the preservation and improvement of breeds of cattle and prohibition of slaughter of cows and calves?",
+    "status": "PASS",
+    "target_articles": [
+      "48"
+    ],
+    "found_articles": [
+      "3B",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 8112,
+    "retrieval_length_words": 1217
+  },
+  {
+    "id": "Q161",
+    "query": "How do directive principles regarding public health support government-run immunization and sanitation programs?",
+    "status": "FAIL",
+    "target_articles": [
+      "47"
+    ],
+    "found_articles": [
+      "1",
+      "12B",
+      "13"
+    ],
+    "missing": [
+      "47"
+    ],
+    "retrieval_length_chars": 8521,
+    "retrieval_length_words": 1425
+  },
+  {
+    "id": "Q162",
+    "query": "What legislative measures stem from the directive to protect historical monuments from spoliation, disfigurement, or export?",
+    "status": "PASS",
+    "target_articles": [
+      "49"
+    ],
+    "found_articles": [
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3019,
+    "retrieval_length_words": 447
+  },
+  {
+    "id": "Q163",
+    "query": "How does the separation of the judiciary from the executive eliminate executive interference in judicial magistrates' functions?",
+    "status": "PASS",
+    "target_articles": [
+      "50"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 4280,
+    "retrieval_length_words": 636
+  },
+  {
+    "id": "Q164",
+    "query": "What measures support the promotion of cottage industries on an individual or cooperative basis in rural areas?",
+    "status": "PASS",
+    "target_articles": [
+      "43"
+    ],
+    "found_articles": [
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3886,
+    "retrieval_length_words": 572
+  },
+  {
+    "id": "Q165",
+    "query": "How do international arbitration provisions align with India's constitutional commitment to foster respect for international treaty obligations?",
+    "status": "PASS",
+    "target_articles": [
+      "51"
+    ],
+    "found_articles": [
+      "44",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3019,
+    "retrieval_length_words": 447
+  },
+  {
+    "id": "Q166",
+    "query": "Which constitutional amendment act introduced the provision for free and compulsory education for children aged 6 to 14 (Article 21A)?",
+    "status": "PASS",
+    "target_articles": [
+      "21A"
+    ],
+    "found_articles": [
+      "19",
+      "20",
+      "21",
+      "21A",
+      "22"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2341,
+    "retrieval_length_words": 390
+  },
+  {
+    "id": "Q167",
+    "query": "Which major constitutional amendment added fundamental duties (Part IV-A) and modified various directive principles regarding environment and legal aid?",
+    "status": "FAIL",
+    "target_articles": [
+      "39A",
+      "48A"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54"
+    ],
+    "missing": [
+      "39A"
+    ],
+    "retrieval_length_chars": 6488,
+    "retrieval_length_words": 970
+  },
+  {
+    "id": "Q168",
+    "query": "How did the Forty-Second Amendment modify the preamble and judicial review scope during the emergency era?",
+    "status": "FAIL",
+    "target_articles": [
+      "31C",
+      "32"
+    ],
+    "found_articles": [],
+    "missing": [
+      "31C",
+      "32"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q169",
+    "query": "What provisions were introduced by the Ninety-Seventh Amendment Act regarding cooperative societies under Article 43B?",
+    "status": "PASS",
+    "target_articles": [
+      "43B"
+    ],
+    "found_articles": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "43A",
+      "43B",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "48A",
+      "49",
+      "50",
+      "51",
+      "51A",
+      "52",
+      "53",
+      "54",
+      "163",
+      "164"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 33131,
+    "retrieval_length_words": 5004
+  },
+  {
+    "id": "Q170",
+    "query": "Which constitutional amendment incorporated the Goods and Services Tax (GST) framework, restructuring federal fiscal relations?",
+    "status": "FAIL",
+    "target_articles": [
+      "246A"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "277",
+      "278",
+      "279",
+      "367"
+    ],
+    "missing": [
+      "246A"
+    ],
+    "retrieval_length_chars": 18613,
+    "retrieval_length_words": 3077
+  },
+  {
+    "id": "Q171",
+    "query": "How did the One Hundred and First Amendment alter legislative powers over taxation between the Union and States?",
+    "status": "PASS",
+    "target_articles": [
+      "246A"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "194",
+      "195",
+      "245",
+      "246",
+      "246A",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "257A",
+      "258",
+      "258A",
+      "259",
+      "260",
+      "261",
+      "262",
+      "263",
+      "264",
+      "265",
+      "266",
+      "267",
+      "268",
+      "268A",
+      "269",
+      "269A",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 18489,
+    "retrieval_length_words": 3082
+  },
+  {
+    "id": "Q172",
+    "query": "What changes were brought by the One Hundred and Third Amendment providing reservations for Economically Weaker Sections (EWS)?",
+    "status": "FAIL",
+    "target_articles": [
+      "15",
+      "16"
+    ],
+    "found_articles": [
+      "17",
+      "18"
+    ],
+    "missing": [
+      "15",
+      "16"
+    ],
+    "retrieval_length_chars": 10437,
+    "retrieval_length_words": 1430
+  },
+  {
+    "id": "Q173",
+    "query": "Which constitutional amendment lowered the voting age from 21 to 18 years?",
+    "status": "PASS",
+    "target_articles": [
+      "326"
+    ],
+    "found_articles": [
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "325",
+      "326",
+      "327",
+      "328",
+      "329"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 9001,
+    "retrieval_length_words": 1476
+  },
+  {
+    "id": "Q174",
+    "query": "How did the Seventy-Third and Seventy-Fourth Amendments institutionalize Panchayati Raj institutions and urban local bodies?",
+    "status": "FAIL",
+    "target_articles": [
+      "40"
+    ],
+    "found_articles": [],
+    "missing": [
+      "40"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q175",
+    "query": "What protections did the Ninth Amendment provide regarding territorial adjustments with neighboring countries?",
+    "status": "FAIL",
+    "target_articles": [
+      "1"
+    ],
+    "found_articles": [],
+    "missing": [
+      "1"
+    ],
+    "retrieval_length_chars": 8876,
+    "retrieval_length_words": 1176
+  },
+  {
+    "id": "Q176",
+    "query": "Which constitutional amendment repealed the right to property as a fundamental right (Article 31) and converted it into a legal right (Article 300A)?",
+    "status": "FAIL",
+    "target_articles": [
+      "31",
+      "300A"
+    ],
+    "found_articles": [
+      "299",
+      "300",
+      "300A"
+    ],
+    "missing": [
+      "31"
+    ],
+    "retrieval_length_chars": 4142,
+    "retrieval_length_words": 723
+  },
+  {
+    "id": "Q177",
+    "query": "How did the Tenth Amendment facilitate the integration of Dadra and Nagar Haveli into the Union?",
+    "status": "PASS",
+    "target_articles": [
+      "1"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "342"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 3241,
+    "retrieval_length_words": 483
+  },
+  {
+    "id": "Q178",
+    "query": "What amendments governed the reorganization of states on a linguistic basis through the Seventh Amendment Act?",
+    "status": "FAIL",
+    "target_articles": [
+      "1",
+      "3"
+    ],
+    "found_articles": [],
+    "missing": [
+      "1",
+      "3"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q179",
+    "query": "How do amendments affecting federal provisions require ratification by state legislatures under Article 368?",
+    "status": "PASS",
+    "target_articles": [
+      "368"
+    ],
+    "found_articles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "21",
+      "167",
+      "168",
+      "169",
+      "171",
+      "172",
+      "173",
+      "243P",
+      "243Q",
+      "243R",
+      "243S",
+      "243T",
+      "243U",
+      "243V",
+      "243W",
+      "243X",
+      "243Y",
+      "243Z",
+      "244",
+      "312",
+      "368"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 45489,
+    "retrieval_length_words": 7318
+  },
+  {
+    "id": "Q180",
+    "query": "What procedural limits did the Kesavananda Bharati judgment place on Parliament's amending power under Article 368?",
+    "status": "FAIL",
+    "target_articles": [
+      "368",
+      "13"
+    ],
+    "found_articles": [
+      "4",
+      "244",
+      "312",
+      "368"
+    ],
+    "missing": [
+      "13"
+    ],
+    "retrieval_length_chars": 16039,
+    "retrieval_length_words": 2617
+  },
+  {
+    "id": "Q181",
+    "query": "How does the doctrine of \"pith and substance\" resolve legislative conflicts between Union and State lists when fundamental rights are implicated?",
+    "status": "FAIL",
+    "target_articles": [
+      "13",
+      "246"
+    ],
+    "found_articles": [],
+    "missing": [
+      "13",
+      "246"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q182",
+    "query": "In what ways does the \"basic structure\" doctrine serve as an implicit limitation on constitutional amendments affecting Part III and Part IV?",
+    "status": "FAIL",
+    "target_articles": [
+      "13",
+      "368"
+    ],
+    "found_articles": [],
+    "missing": [
+      "13",
+      "368"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q183",
+    "query": "How do harmonious construction principles reconcile apparent conflicts between Directive Principles and Fundamental Rights?",
+    "status": "FAIL",
+    "target_articles": [
+      "37",
+      "31C"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37",
+      "31C"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q184",
+    "query": "What criteria determine whether a state action violates the \"doctrine of proportionality\" under fundamental rights review?",
+    "status": "FAIL",
+    "target_articles": [
+      "14",
+      "19"
+    ],
+    "found_articles": [],
+    "missing": [
+      "14",
+      "19"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q185",
+    "query": "How does the \"colorable legislation\" doctrine test whether a legislature has indirectly achieved an unconstitutional objective?",
+    "status": "FAIL",
+    "target_articles": [
+      "13",
+      "246"
+    ],
+    "found_articles": [],
+    "missing": [
+      "13",
+      "246"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q186",
+    "query": "What role does the \"doctrine of eclipse\" play regarding pre-constitutional laws inconsistent with fundamental rights?",
+    "status": "PASS",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [
+      "12",
+      "13"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 1493,
+    "retrieval_length_words": 243
+  },
+  {
+    "id": "Q187",
+    "query": "How does the \"severability\" doctrine operate when a portion of a statute violates fundamental rights while the rest remains valid?",
+    "status": "FAIL",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [],
+    "missing": [
+      "13"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q188",
+    "query": "Can the doctrine of \"waiver\" apply to constitutional rights designed for public benefit rather than private advantage?",
+    "status": "FAIL",
+    "target_articles": [
+      "13"
+    ],
+    "found_articles": [],
+    "missing": [
+      "13"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q189",
+    "query": "How do administrative law principles of natural justice derive constitutional backing from equality and liberty provisions?",
+    "status": "FAIL",
+    "target_articles": [
+      "14",
+      "21"
+    ],
+    "found_articles": [],
+    "missing": [
+      "14",
+      "21"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q190",
+    "query": "What constitutes \"excessive delegation\" of legislative power when Parliament empowers executive bodies to make subordinate legislation?",
+    "status": "FAIL",
+    "target_articles": [
+      "245",
+      "246"
+    ],
+    "found_articles": [],
+    "missing": [
+      "245",
+      "246"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q191",
+    "query": "How does the doctrine of \"eminent domain\" interact with statutory compensation frameworks following property right relocations?",
+    "status": "FAIL",
+    "target_articles": [
+      "300A",
+      "31"
+    ],
+    "found_articles": [],
+    "missing": [
+      "300A",
+      "31"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q192",
+    "query": "In what scenarios does the \"doctrine of legitimate expectation\" bind public authorities to administrative policies or representations?",
+    "status": "FAIL",
+    "target_articles": [
+      "14",
+      "21"
+    ],
+    "found_articles": [],
+    "missing": [
+      "14",
+      "21"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q193",
+    "query": "How do principles of federalism embedded in the constitutional structure prevent central encroachment on state legislative domains?",
+    "status": "FAIL",
+    "target_articles": [
+      "245",
+      "246"
+    ],
+    "found_articles": [],
+    "missing": [
+      "245",
+      "246"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q194",
+    "query": "What limits does the \"doctrine of territorial nexus\" place on state taxation and legislation extraterritorially?",
+    "status": "FAIL",
+    "target_articles": [
+      "245"
+    ],
+    "found_articles": [],
+    "missing": [
+      "245"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q195",
+    "query": "How does the constitutional interpretation of \"procedure established by law\" incorporate substantive due process over time?",
+    "status": "FAIL",
+    "target_articles": [
+      "21"
+    ],
+    "found_articles": [],
+    "missing": [
+      "21"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q196",
+    "query": "What judicial standards evaluate whether economic classifications create hostile discrimination under Article 14?",
+    "status": "FAIL",
+    "target_articles": [
+      "14"
+    ],
+    "found_articles": [],
+    "missing": [
+      "14"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q197",
+    "query": "How do affirmative action quotas interact with the ceiling limits established by judicial precedent on total reservations?",
+    "status": "FAIL",
+    "target_articles": [
+      "15",
+      "16"
+    ],
+    "found_articles": [],
+    "missing": [
+      "15",
+      "16"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q198",
+    "query": "What constitutional safeguards protect freedom of press as an implicit facet of freedom of speech and expression?",
+    "status": "PASS",
+    "target_articles": [
+      "19"
+    ],
+    "found_articles": [
+      "19"
+    ],
+    "missing": [],
+    "retrieval_length_chars": 2208,
+    "retrieval_length_words": 357
+  },
+  {
+    "id": "Q199",
+    "query": "How does the doctrine of \"judicial activism\" manifest in expanding the horizons of Article 21 to include socio-economic entitlements?",
+    "status": "FAIL",
+    "target_articles": [
+      "21",
+      "37"
+    ],
+    "found_articles": [],
+    "missing": [
+      "21",
+      "37"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  },
+  {
+    "id": "Q200",
+    "query": "What structural mechanisms ensure that directive principles guide judicial review without usurping legislative policy-making roles?",
+    "status": "FAIL",
+    "target_articles": [
+      "37",
+      "31C"
+    ],
+    "found_articles": [],
+    "missing": [
+      "37",
+      "31C"
+    ],
+    "retrieval_length_chars": 1,
+    "retrieval_length_words": 0
+  }
+]
