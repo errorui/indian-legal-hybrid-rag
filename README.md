@@ -245,21 +245,9 @@ The evaluation experiments are also available on
 
 ## Evaluation
 
-The current evaluation suite associates legal questions with expected
-constitutional article references. The exploratory evaluator checks whether
-the retrieved parent context covers the target articles.
-
-Planned evaluation improvements include:
-
-- Recall@K, Precision@K, MRR, and nDCG.
-- BM25-only, dense-only, fused, and reranked ablations.
-- Retrieval latency and context-size measurements.
-- Separate reporting for direct article questions and complex doctrinal
-  questions.
-- Answer-level faithfulness and citation validation.
-
-Stored evaluation artifacts represent experiments, not a production-quality
-legal benchmark.
+The current evaluator associates each legal question with the required
+constitutional article references and checks whether the retrieved parent
+chunks contain those articles.
 
 ## Roadmap
 
