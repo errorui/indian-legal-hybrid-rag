@@ -1,0 +1,5 @@
+##chunking strategy
+
+parent-children chunking strategy is a method of breaking down a large piece of information into smaller, more manageable parts. This approach helps in better understanding and retention of the information.
+helps in retriveal in dense and sparse as it breaks down the information into smaller chunks that can be easily accessed and recalled. This strategy is particularly useful in situations where the information is complex or overwhelming, as it allows for a more organized and structured approach to learning and memory retention.
+each children have parent id , that have bigger context which helps in retrival of the information. The parent id serves as a reference point for the children, allowing for easy navigation and retrieval of related information. This hierarchical structure also allows for better organization and categorization of information, making it easier to locate specific pieces of information when needed. Overall, the parent-children chunking strategy is an effective method for breaking down complex information into manageable parts, improving understanding, retention, and retrieval.
