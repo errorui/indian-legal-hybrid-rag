@@ -130,6 +130,80 @@ evidence and acknowledge when the corpus is insufficient.
 
 The retrieval and evaluation stages do not require the generation stage.
 
+## Application
+
+The notebook pipeline is exposed through a FastAPI backend and a Vite, React,
+TypeScript, and Tailwind frontend. The application uses the existing
+`parentchunks2.json` and `childrenchunks.json` artifacts; it does not regenerate
+or replace the research corpus.
+
+```text
+.
+|-- backend/
+|   |-- app.py                  # FastAPI factory and ASGI app only
+|   |-- api/
+|   |   |-- dependencies.py    # FastAPI dependency providers
+|   |   |-- router.py          # Top-level API router
+|   |   `-- routes/            # Health, metadata, search, and chat routes
+|   |-- core/                  # Settings, constants, and logging setup
+|   |-- middleware/            # Request logging middleware
+|   |-- models/                # Pydantic API contracts
+|   |-- services/              # Retrieval, pipeline, and generation logic
+|   `-- utils/                 # Framework-independent text helpers
+|-- frontend/                    # React/Vite/Tailwind source application
+|-- main.py                      # Compatibility entrypoint for uvicorn
+|-- logs/requests.txt            # Local request log (created at runtime, ignored)
+`-- data/chunks/                 # Existing parent and embedded child artifacts
+```
+
+The API surface is intentionally small:
+
+- `GET /health` reports corpus, hybrid-model, and generation readiness.
+- `GET /api/meta` returns corpus metadata and pipeline stages.
+- `POST /api/search` returns ranked, unique parent sources without generation.
+- `POST /api/chat/stream` streams pipeline events and the final grounded result
+  using Server-Sent Events (SSE).
+
+### Observability logs
+
+The backend writes correlated structured events to `logs/requests.txt`. Every
+HTTP response includes an `x-request-id`; use that value to follow a chat from
+`chat_started` through fan-out, each branch and retrieval stage, source
+selection, generation, and the complete response. Warning-level `chat_anomaly`
+events identify stages slower than 10 seconds, empty retrieval branches,
+branches left without selected evidence, and generation fallbacks. Logs rotate
+at 20 MB and retain five backups. Queries, generated answers, and retrieved
+source text are included, so treat the local log directory as sensitive user
+data.
+
+### Run the application
+
+Python 3.10 or newer and Node.js 20.19 or newer are required.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+In a second terminal:
+
+```powershell
+cd frontend
+npm install
+npm run dev
+```
+
+Open `http://127.0.0.1:5173`. During its first startup, the backend resolves the
+Nomic embedding and BGE reranking models, saves project-local snapshots under
+`.cache/models`, builds `.cache/indexes/children_hnsw.faiss`, and warms both
+inference paths before accepting traffic. Later startups load those persisted
+artifacts, so model and index initialization no longer occurs during the first
+chat request. Copy `.env.example` to `.env` and set `OLLAMA_API_KEY` to enable
+the notebook's optional query fan-out and grounded answer generation; without
+it, retrieval and inspectable parent sources remain available.
+
 ## Repository Structure
 
 ```text

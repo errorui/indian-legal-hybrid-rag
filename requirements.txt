@@ -1,3 +1,15 @@
-python-dotenv==1.0.0
-langchain==0.0.137
-pinecone-client==2.2.1
+# Web application
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+python-dotenv>=1.0,<2.0
+
+# Existing notebook hybrid retrieval runtime
+numpy>=1.26,<3.0
+faiss-cpu>=1.8,<2.0
+sentence-transformers>=3.0,<6.0
+einops>=0.7,<1.0
+ollama>=0.4,<1.0
+
+# Backend verification (required by the installed Starlette test client)
+httpx2>=2.0,<3.0
+pytest>=8,<9

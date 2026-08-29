@@ -1,5 +1,10 @@
 .env
+agent.md
 .venv/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+logs/*.txt
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
