@@ -5,7 +5,7 @@ The implementation lives in :mod:`backend.app`; this module keeps the existing
 """
 
 from backend.app import app, create_app
-from backend.services.retrieval import tokenize
+from backend.services.sparse_retrieval import tokenize
 from backend.utils.text import extract_article_references, make_excerpt
 
 __all__ = ["app", "create_app", "extract_article_references", "make_excerpt", "tokenize"]

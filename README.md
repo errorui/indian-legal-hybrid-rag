@@ -119,8 +119,14 @@ The full benchmark artifacts are in `code/dense_benchmark/v2/results/`.
 ### 6. Query fan-out and generation
 
 `code/hybridrag.ipynb` includes an optional **evaluation-driven,
-doctrine-aware query expansion** stage for multi-hop legal questions. This
-approach was introduced after retrieval evaluation exposed a vocabulary gap:
+doctrine-aware query expansion** stage for multi-hop legal questions. The
+Kaggle evaluation showed that direct retrieval could miss relevant evidence
+when a question used an indirect concept or combined several parts. That
+result led to adding query expansion together with focused subqueries:
+the system can restate the user's intent and search each important part
+independently.
+
+This approach addresses a vocabulary gap:
 users may ask about legal concepts such as the *Doctrine of Eclipse*, *Pith
 and Substance*, *Severability*, or the *Basic Structure Doctrine*, while those
 exact doctrine names may not appear in the constitutional text being
@@ -276,7 +282,6 @@ it, retrieval and inspectable parent sources remain available.
 - **Vector search:** FAISS HNSW
 - **Fusion:** Reciprocal Rank Fusion
 - **Reranking:** BGE cross-encoder
-- **Generation:** Ollama API (optional)
 - **Evaluation:** Article-target retrieval test suite
 
 ## Getting Started
@@ -359,6 +364,11 @@ jupyter notebook hybrid_eval.ipynb
 The current evaluator associates each legal question with the required
 constitutional article references and checks whether the retrieved parent
 chunks contain those articles.
+
+The Kaggle evaluation also informed the query-fan-out design. It showed that
+some multi-part or indirectly worded questions needed more than one retrieval
+query, which led to combining query expansion with focused subqueries before
+the final evidence is assembled.
 
 The evaluation work is available in two forms:
 
