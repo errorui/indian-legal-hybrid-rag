@@ -91,7 +91,7 @@ Child chunks are embedded with
 Normalized vectors are indexed with a FAISS HNSW index using inner-product
 similarity.
 
-#### Dense embedding benchmark and migration recommendation
+#### Dense embedding benchmark
 
 The v2 benchmark evaluated 383 automatically mapped positive queries over the
 same 871 child chunks. BGE-base-en-v1.5 is the recommended replacement for
@@ -107,20 +107,6 @@ Nomic when prioritizing the first relevant result and single-hit recall.
 Use `Recall@20` as the practical retrieval metric and `All-recall@10` when
 measuring whether all child chunks needed for a multi-part answer were found.
 The full benchmark artifacts are in `code/dense_benchmark/v2/results/`.
-
-Recommended migration sequence:
-
-1. Keep the existing semantic child boundaries fixed.
-2. Re-embed every child chunk with BGE and rebuild the FAISS index.
-3. Set `EMBEDDING_MODEL=BAAI/bge-base-en-v1.5` and use the BGE query instruction
-   used by the benchmark: `Represent this sentence for searching relevant passages: `.
-4. Re-run the hybrid evaluation and compare the production pipeline metrics.
-
-The semantic child boundaries were kept fixed during the retrieval migration.
-The child embeddings were regenerated with BGE, so the current runtime artifact
-and FAISS index use BGE vectors. If the chunking model is changed later, treat it
-as a separate experiment: new boundaries require new child labels and a fresh
-benchmark.
 
 ### 5. Fusion and reranking
 
@@ -368,32 +354,24 @@ Run retrieval evaluation:
 jupyter notebook hybrid_eval.ipynb
 ```
 
-The evaluation experiments are also available on
-[Kaggle](https://www.kaggle.com/code/rajraman83/hybrid-legal-rag-test?scriptVersionId=338881809).
-
 ## Evaluation
 
 The current evaluator associates each legal question with the required
 constitutional article references and checks whether the retrieved parent
 chunks contain those articles.
 
-## Roadmap
+The evaluation work is available in two forms:
 
-- Add unit tests for the modular backend services.
-- Add alternate embedding and chat-provider adapters behind configuration.
-- Add deterministic tests for chunking, BM25, RRF, and parent expansion.
-- Return structured sources, article references, ranks, and scores.
-- Calibrate reranking thresholds and long-table handling.
-- Add additional Indian statutes, regulations, and judgments.
-- Build a citation-aware API or user interface.
-- Add automated evaluation and continuous integration.
+- The local notebooks and dense benchmark artifacts under `code/`, including
+  `code/dense_benchmark/v2/results/`.
+- The hosted [Kaggle evaluation notebook](https://www.kaggle.com/code/rajraman83/hybrid-legal-rag-test?scriptVersionId=338881809).
 
 ## Responsible Use
 
-This repository is an educational and research project. It is **not legal
-advice**. Legal documents may be amended, superseded, or interpreted by later
-authorities. Any retrieved provision or generated answer should be checked
-against current official legal sources before use.
+This project is a research and software project, not legal advice. Legal
+documents may be amended, superseded, or interpreted by later authorities.
+Retrieved provisions and generated answers should be checked against current
+official legal sources before use.
 
 ## Author
 
