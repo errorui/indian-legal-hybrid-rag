@@ -1,0 +1,265 @@
+[
+  {
+    "id": "article_12_exact_definition",
+    "category": "exact",
+    "query": "What is the definition of State under Article 12 of the Indian Constitution?",
+    "relevant_child_ids": ["parent_0073_child_1"]
+  },
+  {
+    "id": "article_12_semantic_instrumentality",
+    "category": "semantic",
+    "query": "Which constitutional provision treats government bodies and other authorities under government control as the State for fundamental-rights purposes?",
+    "relevant_child_ids": ["parent_0073_child_1"]
+  },
+  {
+    "id": "article_19_semantic_freedoms",
+    "category": "semantic",
+    "query": "Which constitutional provision protects speech, assembly, association, movement, residence and profession?",
+    "relevant_child_ids": ["parent_0078_child_1"]
+  },
+  {
+    "id": "article_19_semantic_profession_restrictions",
+    "category": "semantic",
+    "query": "Where does the Constitution allow reasonable restrictions on carrying on a profession, occupation, trade or business in the interests of the general public?",
+    "relevant_child_ids": ["parent_0079_child_1"]
+  },
+  {
+    "id": "article_21_exact_procedure",
+    "category": "exact",
+    "query": "Which article says no person shall be deprived of life or personal liberty except according to procedure established by law?",
+    "relevant_child_ids": ["parent_0079_child_1"]
+  },
+  {
+    "id": "article_32_semantic_remedies",
+    "category": "semantic",
+    "query": "Which provision guarantees the right to approach the Supreme Court to enforce fundamental rights?",
+    "relevant_child_ids": ["parent_0089_child_1"]
+  },
+  {
+    "id": "article_74_semantic_aid_and_advice",
+    "category": "semantic",
+    "query": "Which article requires the President to act on the aid and advice of the Council of Ministers headed by the Prime Minister?",
+    "relevant_child_ids": ["parent_0098_child_2"]
+  },
+  {
+    "id": "article_75_exact_minister_cap",
+    "category": "exact",
+    "query": "Under Article 75, who appoints the Prime Minister and what is the cap on the total number of Ministers in the Union Council of Ministers?",
+    "relevant_child_ids": ["parent_0098_child_3"]
+  },
+  {
+    "id": "article_78_semantic_pm_duties",
+    "category": "semantic",
+    "query": "Which article obliges the Prime Minister to keep the President informed about decisions of the Council of Ministers and legislative proposals?",
+    "relevant_child_ids": ["parent_0102_child_1"]
+  },
+  {
+    "id": "article_83_exact_duration_and_extension",
+    "category": "adjacent_chunks",
+    "query": "What is the normal duration of the Lok Sabha under Article 83, and how can that term be extended during an Emergency?",
+    "relevant_child_ids": ["parent_0103_child_6", "parent_0103_child_7"]
+  },
+  {
+    "id": "article_85_exact_six_month_gap",
+    "category": "exact",
+    "query": "What is the maximum gap allowed between the last sitting of one session of Parliament and the first sitting of the next session under Article 85?",
+    "relevant_child_ids": ["parent_0104_child_1"]
+  },
+  {
+    "id": "article_89_exact_rajyasabha_chair",
+    "category": "exact",
+    "query": "Who is the ex officio Chairman of the Council of States, and how is the Deputy Chairman chosen under Article 89?",
+    "relevant_child_ids": ["parent_0105_child_1"]
+  },
+  {
+    "id": "article_105_semantic_parliamentary_immunity",
+    "category": "semantic",
+    "query": "Which provision protects freedom of speech in Parliament and immunizes members from court proceedings over what they say or vote in the House?",
+    "relevant_child_ids": ["parent_0107_child_1"]
+  },
+  {
+    "id": "article_108_exact_joint_sitting_exclusion",
+    "category": "adjacent_chunks",
+    "query": "When can a joint sitting of both Houses be called for an ordinary Bill, and does that mechanism apply to a Money Bill?",
+    "relevant_child_ids": ["parent_0108_child_1", "parent_0109_child_1"]
+  },
+  {
+    "id": "article_109_exact_money_bill_route",
+    "category": "adjacent_chunks",
+    "query": "How does Article 109 route a Money Bill through the Council of States, and what happens if the Council does not return it within fourteen days?",
+    "relevant_child_ids": ["parent_0109_child_2", "parent_0109_child_3"]
+  },
+  {
+    "id": "article_110_exact_definition_and_certification",
+    "category": "adjacent_chunks",
+    "query": "How does Article 110 define a Money Bill, and who finally decides and certifies whether a Bill is a Money Bill?",
+    "relevant_child_ids": ["parent_0109_child_3", "parent_0109_child_4", "parent_0109_child_5"]
+  },
+  {
+    "id": "article_111_exact_return_non_money_bill",
+    "category": "exact",
+    "query": "When may the President return a Bill for reconsideration, and what is the exception for Money Bills under Article 111?",
+    "relevant_child_ids": ["parent_0109_child_6"]
+  },
+  {
+    "id": "article_112_exact_annual_financial_statement",
+    "category": "exact",
+    "query": "What is the annual financial statement under Article 112, and what two broad categories of expenditure must it show separately?",
+    "relevant_child_ids": ["parent_0110_child_1"]
+  },
+  {
+    "id": "article_123_semantic_presidential_ordinance",
+    "category": "semantic",
+    "query": "When may the President promulgate an Ordinance while Parliament is not in session, and how long does it survive after reassembly?",
+    "relevant_child_ids": ["parent_0115_child_1"]
+  },
+  {
+    "id": "article_139_exact_other_writs",
+    "category": "exact",
+    "query": "Which article allows Parliament to confer on the Supreme Court the power to issue writs for purposes other than those mentioned in Article 32?",
+    "relevant_child_ids": ["parent_0117_child_7"]
+  },
+  {
+    "id": "article_163_semantic_governor_discretion",
+    "category": "semantic",
+    "query": "Which provision says the Governor acts on the aid and advice of the Council of Ministers except where the Constitution requires discretion, and that the Governor's decision on that discretion question is final?",
+    "relevant_child_ids": ["parent_0123_child_1"]
+  },
+  {
+    "id": "article_167_semantic_cm_information_duty",
+    "category": "semantic",
+    "query": "Which article requires a Chief Minister to communicate decisions of the Council of Ministers to the Governor and to submit matters for reconsideration if the Governor so requires?",
+    "relevant_child_ids": ["parent_0126_child_1"]
+  },
+  {
+    "id": "article_213_semantic_governor_ordinance_restrictions",
+    "category": "adjacent_chunks",
+    "query": "When may a Governor promulgate an Ordinance during the recess of the State Legislature, and when are instructions from the President required?",
+    "relevant_child_ids": ["parent_0137_child_4", "parent_0137_child_5"]
+  },
+  {
+    "id": "article_226_semantic_for_any_other_purpose",
+    "category": "semantic",
+    "query": "Which provision empowers High Courts to issue writs not only for enforcement of fundamental rights but also for any other purpose?",
+    "relevant_child_ids": ["parent_0141_child_2"]
+  },
+  {
+    "id": "article_249_exact_national_interest",
+    "category": "adjacent_chunks",
+    "query": "Under Article 249, how can Parliament legislate on a State List matter in the national interest, how strong must the Council of States majority be, and how long can that resolution remain in force?",
+    "relevant_child_ids": ["parent_0159_child_4", "parent_0159_child_5"]
+  },
+  {
+    "id": "article_250_semantic_emergency_state_list",
+    "category": "semantic",
+    "query": "Can Parliament legislate on State List matters while a Proclamation of Emergency is operating, and how long does such a law continue after the Emergency ends?",
+    "relevant_child_ids": ["parent_0160_child_1"]
+  },
+  {
+    "id": "article_251_exact_repugnancy",
+    "category": "exact",
+    "query": "What happens under Article 251 if a State law conflicts with a law made by Parliament under Article 249 or Article 250?",
+    "relevant_child_ids": ["parent_0160_child_2"]
+  },
+  {
+    "id": "article_352_exact_union_cabinet_writing",
+    "category": "exact",
+    "query": "Before a national Emergency can be proclaimed under Article 352, what written communication from the Union Cabinet must reach the President?",
+    "relevant_child_ids": ["parent_0209_child_1"]
+  },
+  {
+    "id": "article_356_semantic_presidents_rule_trigger",
+    "category": "semantic",
+    "query": "Which constitutional provision allows the President to act when the government of a State cannot be carried on in accordance with the Constitution?",
+    "relevant_child_ids": ["parent_0211_child_4"]
+  },
+  {
+    "id": "article_357_exact_legislative_powers_under_356",
+    "category": "adjacent_chunks",
+    "query": "After a Proclamation under Article 356, how may legislative power be exercised, and what happens to laws made in exercise of that power after the Proclamation ends?",
+    "relevant_child_ids": ["parent_0214_child_3", "parent_0215_child_1"]
+  },
+  {
+    "id": "article_358_exact_not_armed_rebellion",
+    "category": "exact",
+    "query": "Does Article 19 automatically stop restricting the State during every Emergency, or only when the Emergency is declared because of war or external aggression?",
+    "relevant_child_ids": ["parent_0215_child_2"]
+  },
+  {
+    "id": "article_359_exact_articles_20_21_exception",
+    "category": "exact",
+    "query": "Can an order under Article 359 suspend the right to move a court for enforcement of Articles 20 and 21?",
+    "relevant_child_ids": ["parent_0215_child_4"]
+  },
+  {
+    "id": "multihop_compare_articles_32_and_226",
+    "category": "multi_hop",
+    "query": "Compare the writ powers under Articles 32 and 226: which court is empowered in each case, and which provision extends beyond enforcing fundamental rights to any other purpose?",
+    "relevant_child_ids": ["parent_0089_child_1", "parent_0141_child_2"]
+  },
+  {
+    "id": "multihop_compare_articles_74_and_163",
+    "category": "multi_hop",
+    "query": "Compare Articles 74 and 163 on aid and advice: how do the President and Governor each relate to their Council of Ministers, and where does constitutional discretion appear?",
+    "relevant_child_ids": ["parent_0098_child_2", "parent_0123_child_1"]
+  },
+  {
+    "id": "multihop_compare_articles_78_and_167",
+    "category": "multi_hop",
+    "query": "Compare the constitutional duties of the Prime Minister to the President and the Chief Minister to the Governor regarding information, communication of decisions, and reconsideration of ministerial action.",
+    "relevant_child_ids": ["parent_0102_child_1", "parent_0126_child_1"]
+  },
+  {
+    "id": "multihop_money_bill_full_path",
+    "category": "multi_hop",
+    "query": "Trace the constitutional path of a Money Bill: where can it be introduced, what role can the Council of States play, how is it certified, and can the President return it for reconsideration?",
+    "relevant_child_ids": [
+      "parent_0109_child_2",
+      "parent_0109_child_3",
+      "parent_0109_child_4",
+      "parent_0109_child_5",
+      "parent_0109_child_6"
+    ]
+  },
+  {
+    "id": "multihop_state_list_routes_249_250_251",
+    "category": "multi_hop",
+    "query": "Compare the two constitutional routes by which Parliament may legislate on State List matters under Articles 249 and 250, and explain under Article 251 what happens if a conflicting State law exists.",
+    "relevant_child_ids": [
+      "parent_0159_child_4",
+      "parent_0159_child_5",
+      "parent_0160_child_1",
+      "parent_0160_child_2"
+    ]
+  },
+  {
+    "id": "multihop_emergency_rights_358_359",
+    "category": "multi_hop",
+    "query": "Compare Articles 358 and 359 during an Emergency: which one affects Article 19, which one concerns the right to move courts, and what special protection is preserved for Articles 20 and 21?",
+    "relevant_child_ids": ["parent_0215_child_2", "parent_0215_child_4"]
+  },
+  {
+    "id": "negative_money_bill_in_rajyasabha",
+    "category": "negative",
+    "query": "Which article allows a Money Bill to be introduced in the Council of States?",
+    "relevant_child_ids": []
+  },
+  {
+    "id": "negative_article_19_suspended_for_armed_rebellion",
+    "category": "negative",
+    "query": "Which constitutional provision says Article 19 is automatically suspended during an Emergency declared on the ground of armed rebellion?",
+    "relevant_child_ids": []
+  },
+  {
+    "id": "negative_president_returns_money_bill",
+    "category": "negative",
+    "query": "Which provision authorizes the President to return a Money Bill to Parliament for reconsideration?",
+    "relevant_child_ids": []
+  },
+  {
+    "id": "negative_governor_ordinance_while_in_session",
+    "category": "negative",
+    "query": "Which article lets the Governor promulgate an Ordinance while the State Legislature is in session?",
+    "relevant_child_ids": []
+  }
+]

@@ -40,7 +40,7 @@ def get_chat_service(request: Request) -> ChatService:
 
 
 def get_request_logger() -> logging.Logger:
-    return logging.getLogger("constitution_rag.requests")
+    return logging.getLogger("research_tool.requests")
 
 
 SettingsDependency = Annotated[Settings, Depends(get_settings)]

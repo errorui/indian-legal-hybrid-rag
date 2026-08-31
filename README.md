@@ -35,7 +35,7 @@ flowchart LR
     B --> C["Heading-aware parent chunks"]
     C --> D["Semantic child chunks"]
     D --> E["BM25 sparse retrieval"]
-    D --> F["Nomic embeddings and FAISS HNSW"]
+    D --> F["BGE embeddings and FAISS HNSW"]
     E --> G["Reciprocal Rank Fusion"]
     F --> G
     G --> H["BGE cross-encoder reranking"]
@@ -87,9 +87,40 @@ keywords.
 ### 4. Dense retrieval
 
 Child chunks are embedded with
-[`nomic-ai/nomic-embed-text-v1.5`](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5).
+[`BAAI/bge-base-en-v1.5`](https://huggingface.co/BAAI/bge-base-en-v1.5).
 Normalized vectors are indexed with a FAISS HNSW index using inner-product
 similarity.
+
+#### Dense embedding benchmark and migration recommendation
+
+The v2 benchmark evaluated 383 automatically mapped positive queries over the
+same 871 child chunks. BGE-base-en-v1.5 is the recommended replacement for
+Nomic when prioritizing the first relevant result and single-hit recall.
+
+| Model | MRR | Recall@10 | Recall@20 | All-recall@10 | Mean coverage@10 |
+|---|---:|---:|---:|---:|---:|
+| **BGE-base-en-v1.5** | **0.652** | **0.862** | **0.911** | 0.334 | **0.560** |
+| Nomic raw | 0.624 | 0.836 | 0.877 | **0.347** | 0.555 |
+| Nomic with prefixes | 0.618 | 0.820 | 0.875 | 0.329 | 0.532 |
+| E5-base-v2 | 0.601 | 0.843 | 0.890 | 0.324 | 0.555 |
+
+Use `Recall@20` as the practical retrieval metric and `All-recall@10` when
+measuring whether all child chunks needed for a multi-part answer were found.
+The full benchmark artifacts are in `code/dense_benchmark/v2/results/`.
+
+Recommended migration sequence:
+
+1. Keep the existing semantic child boundaries fixed.
+2. Re-embed every child chunk with BGE and rebuild the FAISS index.
+3. Set `EMBEDDING_MODEL=BAAI/bge-base-en-v1.5` and use the BGE query instruction
+   used by the benchmark: `Represent this sentence for searching relevant passages: `.
+4. Re-run the hybrid evaluation and compare the production pipeline metrics.
+
+The semantic child boundaries were kept fixed during the retrieval migration.
+The child embeddings were regenerated with BGE, so the current runtime artifact
+and FAISS index use BGE vectors. If the chunking model is changed later, treat it
+as a separate experiment: new boundaries require new child labels and a fresh
+benchmark.
 
 ### 5. Fusion and reranking
 
@@ -132,10 +163,10 @@ The retrieval and evaluation stages do not require the generation stage.
 
 ## Application
 
-The notebook pipeline is exposed through a FastAPI backend and a Vite, React,
+The research pipeline is exposed through a FastAPI backend and a Vite, React,
 TypeScript, and Tailwind frontend. The application uses the existing
 `parentchunks2.json` and `childrenchunks.json` artifacts; it does not regenerate
-or replace the research corpus.
+the corpus during startup.
 
 ```text
 .
@@ -148,7 +179,7 @@ or replace the research corpus.
 |   |-- core/                  # Settings, constants, and logging setup
 |   |-- middleware/            # Request logging middleware
 |   |-- models/                # Pydantic API contracts
-|   |-- services/              # Retrieval, pipeline, and generation logic
+|   |-- services/              # Focused retrieval, model, provider, and chat services
 |   `-- utils/                 # Framework-independent text helpers
 |-- frontend/                    # React/Vite/Tailwind source application
 |-- main.py                      # Compatibility entrypoint for uvicorn
@@ -163,6 +194,29 @@ The API surface is intentionally small:
 - `POST /api/search` returns ranked, unique parent sources without generation.
 - `POST /api/chat/stream` streams pipeline events and the final grounded result
   using Server-Sent Events (SSE).
+
+### Backend design
+
+The backend is organized around responsibilities that change independently.
+Corpus loading, sparse retrieval, dense retrieval, reranking, parent expansion,
+model loading, query fan-out, and answer generation each have their own service.
+`HybridRetriever` and `ChatService` remain small facades so the routes do not
+need to know how those pieces are assembled.
+
+The application is wired in `lifespan.py`. It creates the long-lived services
+once per worker and stores them in `app.state`; routes receive them through
+FastAPI dependencies. This keeps startup, configuration, and request handling
+separate.
+
+The chat workflow depends on the small `ChatProvider` protocol rather than on a
+specific vendor. `OllamaChatProvider` is the current adapter, and provider
+selection happens in `provider_factory.py`. Model loading follows the same idea:
+`ModelLoader` owns the shared snapshot workflow, while concrete loaders implement
+the model-specific details.
+
+These choices are practical applications of SOLID principles. They are meant to
+make future changes local and testable, not to add abstractions for their own
+sake.
 
 ### Observability logs
 
@@ -196,7 +250,7 @@ npm run dev
 ```
 
 Open `http://127.0.0.1:5173`. During its first startup, the backend resolves the
-Nomic embedding and BGE reranking models, saves project-local snapshots under
+BGE embedding and BGE reranking models, saves project-local snapshots under
 `.cache/models`, builds `.cache/indexes/children_hnsw.faiss`, and warms both
 inference paths before accepting traffic. Later startups load those persisted
 artifacts, so model and index initialization no longer occurs during the first
@@ -231,7 +285,7 @@ it, retrieval and inspectable parent sources remain available.
 
 - **Language:** Python
 - **Document processing:** MinerU, Markdown, JSON
-- **Embeddings:** Sentence Transformers, Nomic Embed Text
+- **Embeddings:** Sentence Transformers, BGE-base-en-v1.5
 - **Sparse retrieval:** Custom BM25 implementation
 - **Vector search:** FAISS HNSW
 - **Fusion:** Reciprocal Rank Fusion
@@ -325,8 +379,8 @@ chunks contain those articles.
 
 ## Roadmap
 
-- Refactor notebook logic into reusable Python modules.
-- Persist and reload the FAISS index.
+- Add unit tests for the modular backend services.
+- Add alternate embedding and chat-provider adapters behind configuration.
 - Add deterministic tests for chunking, BM25, RRF, and parent expansion.
 - Return structured sources, article references, ranks, and scores.
 - Calibrate reranking thresholds and long-table handling.

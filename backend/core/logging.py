@@ -28,7 +28,7 @@ def log_event(
 
 def configure_request_logger(log_path: Path) -> logging.Logger:
     log_path.parent.mkdir(parents=True, exist_ok=True)
-    logger = logging.getLogger("constitution_rag.requests")
+    logger = logging.getLogger("research_tool.requests")
     logger.setLevel(logging.INFO)
     logger.propagate = False
 

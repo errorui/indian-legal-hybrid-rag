@@ -14,13 +14,14 @@ from .middleware.request_logging import RequestLoggingMiddleware
 
 def create_app(config: Settings = settings) -> FastAPI:
     request_logger = configure_request_logger(config.request_log_path)
+    corpus_description = f" over the {config.corpus_name}"
+    if config.corpus_date:
+        corpus_description += f" as of {config.corpus_date}"
+        # create lifespan etc
     application = FastAPI(
-        title="Constitution Hybrid RAG API",
+        title="Research Retrieval API",
         version="1.0.0",
-        description=(
-            f"Citation-forward retrieval over the {config.corpus_name}, "
-            f"as on {config.corpus_date}."
-        ),
+        description=f"Citation-forward retrieval{corpus_description}.",
         lifespan=create_lifespan(config),
     )
     application.add_middleware(

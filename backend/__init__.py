@@ -1,2 +1,1 @@
-"""Backend package for the Constitution of India hybrid RAG API."""
-
+"""Backend package for the configurable research retrieval API."""

@@ -1,0 +1,399 @@
+[
+  {
+    "id": "Q013",
+    "source_id": "Q013",
+    "question": "Which fundamental right was abolished by the 44th Amendment?",
+    "target_articles": [
+      "31"
+    ],
+    "matches_by_article": {
+      "31": []
+    },
+    "missing_articles": [
+      "31"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q129",
+    "source_id": "Q129",
+    "question": "What was Article 31 and why was it omitted?",
+    "target_articles": [
+      "31"
+    ],
+    "matches_by_article": {
+      "31": []
+    },
+    "missing_articles": [
+      "31"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q132",
+    "source_id": "Q132",
+    "question": "What was Article 144A and why was it omitted?",
+    "target_articles": [
+      "144A"
+    ],
+    "matches_by_article": {
+      "144A": []
+    },
+    "missing_articles": [
+      "144A"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q133",
+    "source_id": "Q133",
+    "question": "What was Article 226A and why was it omitted?",
+    "target_articles": [
+      "226A"
+    ],
+    "matches_by_article": {
+      "226A": []
+    },
+    "missing_articles": [
+      "226A"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q134",
+    "source_id": "Q134",
+    "question": "What was Article 228A and why was it omitted?",
+    "target_articles": [
+      "228A"
+    ],
+    "matches_by_article": {
+      "228A": []
+    },
+    "missing_articles": [
+      "228A"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q138",
+    "source_id": "Q138",
+    "question": "What was Article 314 and why was it omitted?",
+    "target_articles": [
+      "314"
+    ],
+    "matches_by_article": {
+      "314": []
+    },
+    "missing_articles": [
+      "314"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q139",
+    "source_id": "Q139",
+    "question": "What was Article 238 and why was it omitted?",
+    "target_articles": [
+      "238"
+    ],
+    "matches_by_article": {
+      "238": []
+    },
+    "missing_articles": [
+      "238"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q140",
+    "source_id": "Q140",
+    "question": "What was Article 2A regarding Sikkim and why was it omitted?",
+    "target_articles": [
+      "2A"
+    ],
+    "matches_by_article": {
+      "2A": []
+    },
+    "missing_articles": [
+      "2A"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q177",
+    "source_id": "Q177",
+    "question": "What is the succession to property under Article 294?",
+    "target_articles": [
+      "294"
+    ],
+    "matches_by_article": {
+      "294": []
+    },
+    "missing_articles": [
+      "294"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q187",
+    "source_id": "Q187",
+    "question": "What are the rights of citizenship for migrants from Pakistan under Article 6?",
+    "target_articles": [
+      "6"
+    ],
+    "matches_by_article": {
+      "6": [
+        "parent_0071",
+        "parent_0201"
+      ]
+    },
+    "missing_articles": [],
+    "ambiguous_articles": {
+      "6": [
+        "parent_0071",
+        "parent_0201"
+      ]
+    },
+    "matched_parent_ids": [
+      "parent_0071",
+      "parent_0201"
+    ],
+    "matched_child_ids": [
+      "parent_0071_child_1",
+      "parent_0201_child_1",
+      "parent_0201_child_2",
+      "parent_0201_child_3"
+    ],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q002_v2",
+    "source_id": "Q002",
+    "question": "Under what legislative mechanism can Parliament admit or establish new states into the Union of India on terms it deems fit?",
+    "target_articles": [
+      "2"
+    ],
+    "matches_by_article": {
+      "2": [
+        "parent_0069",
+        "parent_0201",
+        "parent_0215"
+      ]
+    },
+    "missing_articles": [],
+    "ambiguous_articles": {
+      "2": [
+        "parent_0069",
+        "parent_0201",
+        "parent_0215"
+      ]
+    },
+    "matched_parent_ids": [
+      "parent_0069",
+      "parent_0201",
+      "parent_0215"
+    ],
+    "matched_child_ids": [
+      "parent_0069_child_1",
+      "parent_0201_child_1",
+      "parent_0201_child_2",
+      "parent_0201_child_3",
+      "parent_0215_child_1",
+      "parent_0215_child_2",
+      "parent_0215_child_3",
+      "parent_0215_child_4",
+      "parent_0215_child_5",
+      "parent_0215_child_6",
+      "parent_0215_child_7",
+      "parent_0215_child_8"
+    ],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q005_v2",
+    "source_id": "Q005",
+    "question": "Which specific constitutional amendment formally integrated Sikkim into the Union of India before its subsequent omission?",
+    "target_articles": [
+      "2A"
+    ],
+    "matches_by_article": {
+      "2A": []
+    },
+    "missing_articles": [
+      "2A"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q012_v2",
+    "source_id": "Q012",
+    "question": "What specific migration date from Pakistan distinguishes the citizenship acquisition rights of persons under Article 6?",
+    "target_articles": [
+      "6"
+    ],
+    "matches_by_article": {
+      "6": [
+        "parent_0071",
+        "parent_0201"
+      ]
+    },
+    "missing_articles": [],
+    "ambiguous_articles": {
+      "6": [
+        "parent_0071",
+        "parent_0201"
+      ]
+    },
+    "matched_parent_ids": [
+      "parent_0071",
+      "parent_0201"
+    ],
+    "matched_child_ids": [
+      "parent_0071_child_1",
+      "parent_0201_child_1",
+      "parent_0201_child_2",
+      "parent_0201_child_3"
+    ],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q016_v2",
+    "source_id": "Q016",
+    "question": "What registration or residence duration requirements historically applied to individuals migrating from Pakistan under constitutional transitional provisions?",
+    "target_articles": [
+      "6"
+    ],
+    "matches_by_article": {
+      "6": [
+        "parent_0071",
+        "parent_0201"
+      ]
+    },
+    "missing_articles": [],
+    "ambiguous_articles": {
+      "6": [
+        "parent_0071",
+        "parent_0201"
+      ]
+    },
+    "matched_parent_ids": [
+      "parent_0071",
+      "parent_0201"
+    ],
+    "matched_child_ids": [
+      "parent_0071_child_1",
+      "parent_0201_child_1",
+      "parent_0201_child_2",
+      "parent_0201_child_3"
+    ],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q094_v2",
+    "source_id": "Q094",
+    "question": "What historical property acquisition article relating to the right to property was omitted from Part III?",
+    "target_articles": [
+      "31"
+    ],
+    "matches_by_article": {
+      "31": []
+    },
+    "missing_articles": [
+      "31"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [],
+    "matched_child_ids": [],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q176_v2",
+    "source_id": "Q176",
+    "question": "Which constitutional amendment repealed the right to property as a fundamental right (Article 31) and converted it into a legal right (Article 300A)?",
+    "target_articles": [
+      "31",
+      "300A"
+    ],
+    "matches_by_article": {
+      "31": [],
+      "300A": [
+        "parent_0182"
+      ]
+    },
+    "missing_articles": [
+      "31"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [
+      "parent_0182"
+    ],
+    "matched_child_ids": [
+      "parent_0182_child_1",
+      "parent_0182_child_2",
+      "parent_0182_child_3",
+      "parent_0182_child_4",
+      "parent_0182_child_5"
+    ],
+    "status": "needs_manual_review"
+  },
+  {
+    "id": "Q191_v2",
+    "source_id": "Q191",
+    "question": "How does the doctrine of \"eminent domain\" interact with statutory compensation frameworks following property right relocations?",
+    "target_articles": [
+      "300A",
+      "31"
+    ],
+    "matches_by_article": {
+      "300A": [
+        "parent_0182"
+      ],
+      "31": []
+    },
+    "missing_articles": [
+      "31"
+    ],
+    "ambiguous_articles": {},
+    "matched_parent_ids": [
+      "parent_0182"
+    ],
+    "matched_child_ids": [
+      "parent_0182_child_1",
+      "parent_0182_child_2",
+      "parent_0182_child_3",
+      "parent_0182_child_4",
+      "parent_0182_child_5"
+    ],
+    "status": "needs_manual_review"
+  }
+]

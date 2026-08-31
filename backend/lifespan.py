@@ -10,17 +10,19 @@ from fastapi import FastAPI
 from .core.config import Settings
 from .services.chat import ChatService
 from .services.pipeline import RetrievalPipeline
+from .services.provider_factory import create_chat_provider
 from .services.retrieval import HybridRetriever
 
 
-logger = logging.getLogger("constitution_rag.requests")
+logger = logging.getLogger("research_tool.requests")
 
 
 def create_lifespan(config: Settings) -> Callable[[FastAPI], AsyncIterator[None]]:
     @asynccontextmanager
     async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         app.state.settings = config
-        app.state.chat_service = ChatService(config)
+        chat_provider = create_chat_provider(config)
+        app.state.chat_service = ChatService(chat_provider, config)
         app.state.retriever = None
         app.state.pipeline = None
         app.state.startup_error = None
