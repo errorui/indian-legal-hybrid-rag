@@ -376,6 +376,40 @@ The evaluation work is available in two forms:
   `code/dense_benchmark/v2/results/`.
 - The hosted [Kaggle evaluation notebook](https://www.kaggle.com/code/rajraman83/hybrid-legal-rag-test?scriptVersionId=338881809).
 
+## Decision-router fine-tuning experiment
+
+We compared LLM tool calling with binary decision models on the same constructed
+100-case legal-RAG routing benchmark: 50 single-turn and 50 multi-turn cases,
+with 50 search and 50 no-search targets overall. Every system receives the same
+conversation and evidence policy; local decision thresholds are fixed at 0.5.
+The benchmark scores the initial search decision, not final-answer quality.
+
+| Model | Overall | Single-turn | Multi-turn | Missed searches / 50 | Unnecessary searches / 50 |
+|---|---:|---:|---:|---:|---:|
+| LLM tool calling | 84% | 80% | 88% | 10 | 6 |
+| ModernJEV, corrected conversation-only input | 40% | 50% | 30% | 48 | 12 |
+| Original Laya | 52% | 48% | 56% | 45 | 3 |
+| Qwen JEV | 50% | 50% | 50% | 50 | 0 |
+| Laya, head-only fine-tuning | 70% | 92% | 48% | 11 | 19 |
+| **Laya, full fine-tuning** | **81%** | **98%** | **64%** | **7** | **12** |
+
+Fine-tuning uses a separate 200-case dataset split into 160 training and 40
+validation samples. Full training updated 421,029,889 parameters on a Colab
+Tesla T4 using FP16 computation and gradient checkpointing. Epoch 6, selected
+by validation loss, achieved 100% on the 40 validation cases and 81% on the
+existing 100-case benchmark. These are separate measurements. Peak allocated
+training GPU memory was about 7.11 GiB. Eighteen of its nineteen benchmark
+errors were multi-turn; handling evidence already present in history remains
+the main gap. Full-run latency was not measured.
+
+See the [complete experiment record](code/decision_benchmark/head_finetuning/README.md)
+for dataset provenance, the original input mismatch and correction, training
+settings, reported epoch logs, all model comparisons, artifact locations,
+limitations and next steps. The full-training figures are reported from
+[the Colab notebook](https://colab.research.google.com/drive/1H76Plu7j4yZlBZAbNhvpfjFkemV5iqcR#scrollTo=MCH9ULff6sKa).
+Full checkpoints remain outside Git. This small benchmark has been repeatedly
+inspected; a fresh independent test is needed for generalisation claims.
+
 ## Responsible Use
 
 This project is a research and software project, not legal advice. Legal
