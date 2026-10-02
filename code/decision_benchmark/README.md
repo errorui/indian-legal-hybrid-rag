@@ -13,6 +13,22 @@ benchmark results; its separate 40-case validation accuracy was 100%.
 Full-run results were reported from Colab; the full checkpoint is not in Git.
 The benchmark remains a small, constructed, repeatedly inspected development set.
 
+The published files include `cases.jsonl`, `reference_replays.json`, both
+inference-result folders, the 160/40 fine-tuning split with excerpt provenance,
+and the corrected `head_finetuning/laya_run_v2` predictions and training logs.
+The superseded `laya_run` text artifacts are retained for audit and are not valid
+final results. Model weights, optimizer state and cached features are excluded.
+The full Colab checkpoint and its per-case outputs have not been downloaded here;
+only the user-reported full-run figures are recorded in the experiment README.
+
+Benchmark and local head-training source/tests are included. The full-training
+recipe is in the linked Colab notebook. Reproducing the remote baseline additionally
+requires the application's LangGraph workflow and your own generation credentials;
+this artifact publication does not publish other pending application changes.
+Use the committed frozen cases for comparison; rebuilding the dataset can request
+new provider-generated histories. Pinned historical model/code revisions are in
+`model_sources.json`; `fetch_sources.py` uses that manifest to rebuild the cache.
+
 100 constructed English cases, with independent evidence-policy labels:
 
 | Style | Search | No search | Total |

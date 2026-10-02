@@ -1,0 +1,282 @@
+[
+  {
+    "id": "head-005",
+    "full": 0.5164,
+    "cached": 0.516395092010498,
+    "difference": 4.907989501923282e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-006",
+    "full": 0.5309,
+    "cached": 0.5291242599487305,
+    "difference": 0.0017757400512695698,
+    "same_route": true
+  },
+  {
+    "id": "head-007",
+    "full": 0.5073,
+    "cached": 0.5091106295585632,
+    "difference": 0.0018106295585632592,
+    "same_route": true
+  },
+  {
+    "id": "head-008",
+    "full": 0.4927,
+    "cached": 0.4927111566066742,
+    "difference": 1.1156606674167513e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-029",
+    "full": 0.6616,
+    "cached": 0.6616414189338684,
+    "difference": 4.141893386844231e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-030",
+    "full": 0.6041,
+    "cached": 0.6041483879089355,
+    "difference": 4.838790893557654e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-031",
+    "full": 0.5036,
+    "cached": 0.5072888135910034,
+    "difference": 0.0036888135910033704,
+    "same_route": true
+  },
+  {
+    "id": "head-032",
+    "full": 0.5328,
+    "cached": 0.5254905223846436,
+    "difference": 0.007309477615356497,
+    "same_route": true
+  },
+  {
+    "id": "head-041",
+    "full": 0.7012,
+    "cached": 0.7011647820472717,
+    "difference": 3.521795272831696e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-042",
+    "full": 0.5652,
+    "cached": 0.5652299523353577,
+    "difference": 2.995233535763031e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-043",
+    "full": 0.4064,
+    "cached": 0.4063573479652405,
+    "difference": 4.2652034759504964e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-044",
+    "full": 0.5346,
+    "cached": 0.5345690250396729,
+    "difference": 3.0974960327112555e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-069",
+    "full": 0.6841,
+    "cached": 0.6840977668762207,
+    "difference": 2.233123779338264e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-070",
+    "full": 0.4854,
+    "cached": 0.48542550206184387,
+    "difference": 2.5502061843873935e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-071",
+    "full": 0.4081,
+    "cached": 0.4081169366836548,
+    "difference": 1.693668365476686e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-072",
+    "full": 0.5309,
+    "cached": 0.5309399962425232,
+    "difference": 3.999624252315481e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-085",
+    "full": 0.4854,
+    "cached": 0.48542550206184387,
+    "difference": 2.5502061843873935e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-086",
+    "full": 0.5018,
+    "cached": 0.501822292804718,
+    "difference": 2.2292804717993775e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-087",
+    "full": 0.6665,
+    "cached": 0.6665195822715759,
+    "difference": 1.9582271575946386e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-088",
+    "full": 0.6534,
+    "cached": 0.6534346342086792,
+    "difference": 3.4634208679218403e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-113",
+    "full": 0.6809,
+    "cached": 0.6777631044387817,
+    "difference": 0.0031368955612182114,
+    "same_route": true
+  },
+  {
+    "id": "head-114",
+    "full": 0.6076,
+    "cached": 0.6041484475135803,
+    "difference": 0.0034515524864197067,
+    "same_route": true
+  },
+  {
+    "id": "head-115",
+    "full": 0.7057,
+    "cached": 0.7026898860931396,
+    "difference": 0.0030101139068603455,
+    "same_route": true
+  },
+  {
+    "id": "head-116",
+    "full": 0.5848,
+    "cached": 0.5848214626312256,
+    "difference": 2.1462631225599438e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-141",
+    "full": 0.5884,
+    "cached": 0.5883567929267883,
+    "difference": 4.320707321170403e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-142",
+    "full": 0.5581,
+    "cached": 0.558051586151123,
+    "difference": 4.8413848876993626e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-143",
+    "full": 0.4654,
+    "cached": 0.46543097496032715,
+    "difference": 3.0974960327168066e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-144",
+    "full": 0.52,
+    "cached": 0.5182152390480042,
+    "difference": 0.0017847609519958674,
+    "same_route": true
+  },
+  {
+    "id": "head-145",
+    "full": 0.6266,
+    "cached": 0.6265727281570435,
+    "difference": 2.72718429565888e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-146",
+    "full": 0.5652,
+    "cached": 0.5688090920448303,
+    "difference": 0.0036090920448302866,
+    "same_route": true
+  },
+  {
+    "id": "head-147",
+    "full": 0.4945,
+    "cached": 0.4945331811904907,
+    "difference": 3.318119049072754e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-148",
+    "full": 0.5328,
+    "cached": 0.5327549576759338,
+    "difference": 4.5042324066213446e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-189",
+    "full": 0.6283,
+    "cached": 0.6282767653465271,
+    "difference": 2.3234653472870015e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-190",
+    "full": 0.5,
+    "cached": 0.5,
+    "difference": 0.0,
+    "same_route": true
+  },
+  {
+    "id": "head-191",
+    "full": 0.7087,
+    "cached": 0.7087451219558716,
+    "difference": 4.5121955871585406e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-192",
+    "full": 0.5,
+    "cached": 0.4981776773929596,
+    "difference": 0.0018223226070404053,
+    "same_route": false
+  },
+  {
+    "id": "head-193",
+    "full": 0.6872,
+    "cached": 0.6872398257255554,
+    "difference": 3.982572555538688e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-194",
+    "full": 0.5795,
+    "cached": 0.5759455561637878,
+    "difference": 0.0035544438362121733,
+    "same_route": true
+  },
+  {
+    "id": "head-195",
+    "full": 0.4854,
+    "cached": 0.48542550206184387,
+    "difference": 2.5502061843873935e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-196",
+    "full": 0.4582,
+    "cached": 0.4581843614578247,
+    "difference": 1.563854217528915e-05,
+    "same_route": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "epoch": 10,
+  "train_loss": 0.4808832883834839,
+  "train_accuracy": 0.78125,
+  "validation_loss": 0.647983729839325,
+  "validation_accuracy": 0.550000011920929,
+  "lr": 5.868240888334653e-05,
+  "gradient_norm": 2.032881146669388,
+  "peak_allocated_mb": 639.7,
+  "checkpoint": "head_epoch_10.safetensors"
+}

@@ -1,0 +1,138 @@
+{
+  "model": {
+    "repo": "convaiinnovations/laya",
+    "revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+    "path": ".cache\\decision_models\\models--convaiinnovations--laya\\snapshots\\55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+  },
+  "config": {
+    "seed": 20261002,
+    "epochs": 20,
+    "patience": 4,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "micro_batch": 4,
+    "accumulation": 2,
+    "clip_norm": 1.0,
+    "threshold": 0.5,
+    "device": "cuda",
+    "precision": "bfloat16",
+    "checkpoint_selection": "minimum validation raw cross-entropy",
+    "option_order_augmentation": true,
+    "feature_dtype": "preserve encoder output"
+  },
+  "hashes": {
+    "train.jsonl": "4777e05a02deca14bebb1d12b1b495cc4cf7ce575528245927b72b8c37801ae4",
+    "validation.jsonl": "65f4a7d15bff68edb3b5d7a8116f1b0772b3bc1dc7da1b08dc9f62a4c93e6623",
+    "finetuning_cases.jsonl": "79271fb31cf11a1f807b82b182c2c6fa8fd8fd007fc56e491000179b3fa5c0c9",
+    "evaluation": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+    "contract": "5104fa64ee4398c8e427816d92b486189152942e0235bbee0978681274775918"
+  },
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "torch_version": "2.6.0+cu124",
+  "cuda_version": "12.4",
+  "trainable_parameters": 26245121,
+  "frozen_parameters": 395048706,
+  "frozen_parameters_unchanged": true,
+  "backbone_gradients_absent": true,
+  "input_truncations": 0,
+  "initial_validation": {
+    "loss": 0.9618561863899231,
+    "accuracy": 0.574999988079071
+  },
+  "selected_checkpoint": {
+    "epoch": 10,
+    "train_loss": 0.4808832883834839,
+    "train_accuracy": 0.78125,
+    "validation_loss": 0.647983729839325,
+    "validation_accuracy": 0.550000011920929,
+    "lr": 5.868240888334653e-05,
+    "gradient_norm": 2.032881146669388,
+    "peak_allocated_mb": 639.7,
+    "checkpoint": "head_epoch_10.safetensors"
+  },
+  "final_validation": {
+    "loss": 0.648261547088623,
+    "accuracy": 0.550000011920929
+  },
+  "epochs_completed": 14,
+  "temperature": 1.569168210029602,
+  "baseline": {
+    "overall": {
+      "n": 100,
+      "accuracy": 0.52,
+      "true_search": 5,
+      "true_no_search": 47,
+      "missed_search": 45,
+      "extra_search": 3,
+      "search_recall": 0.1,
+      "search_precision": 0.625,
+      "median_ms": 32.0745
+    },
+    "single": {
+      "n": 50,
+      "accuracy": 0.48,
+      "true_search": 0,
+      "true_no_search": 24,
+      "missed_search": 25,
+      "extra_search": 1,
+      "search_recall": 0.0,
+      "search_precision": 0.0,
+      "median_ms": 29.4595
+    },
+    "multi": {
+      "n": 50,
+      "accuracy": 0.56,
+      "true_search": 5,
+      "true_no_search": 23,
+      "missed_search": 20,
+      "extra_search": 2,
+      "search_recall": 0.2,
+      "search_precision": 0.7142857142857143,
+      "median_ms": 38.724000000000004
+    }
+  },
+  "trained": {
+    "overall": {
+      "n": 100,
+      "accuracy": 0.7,
+      "true_search": 39,
+      "true_no_search": 31,
+      "missed_search": 11,
+      "extra_search": 19,
+      "search_recall": 0.78,
+      "search_precision": 0.6724137931034483,
+      "median_ms": 31.417
+    },
+    "single": {
+      "n": 50,
+      "accuracy": 0.92,
+      "true_search": 25,
+      "true_no_search": 21,
+      "missed_search": 0,
+      "extra_search": 4,
+      "search_recall": 1.0,
+      "search_precision": 0.8620689655172413,
+      "median_ms": 26.7875
+    },
+    "multi": {
+      "n": 50,
+      "accuracy": 0.48,
+      "true_search": 14,
+      "true_no_search": 10,
+      "missed_search": 11,
+      "extra_search": 15,
+      "search_recall": 0.56,
+      "search_precision": 0.4827586206896552,
+      "median_ms": 39.061
+    }
+  },
+  "training_peak_allocated_mb": 639.7,
+  "total_peak_allocated_mb": 920.3,
+  "peak_reserved_mb": 1816.0,
+  "last_invocation_seconds": 24.8,
+  "feature_cache": "code\\decision_benchmark\\head_finetuning\\laya_run\\features.pt",
+  "cache_feature_dtype": "torch.float32",
+  "evaluation_unchanged": true,
+  "cache_full_inference_parity": true,
+  "limitations": "Small constructed training pilot; existing evaluation repeatedly inspected; no fresh production test."
+}

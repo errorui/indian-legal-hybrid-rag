@@ -1,0 +1,142 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.0696933574974536,
+    "train_accuracy": 0.425,
+    "validation_loss": 0.8687812089920044,
+    "validation_accuracy": 0.574999988079071,
+    "lr": 5.25e-05,
+    "gradient_norm": 7.480920445919037,
+    "peak_allocated_mb": 621.5
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.871553460508585,
+    "train_accuracy": 0.43125,
+    "validation_loss": 0.7370090484619141,
+    "validation_accuracy": 0.574999988079071,
+    "lr": 0.0001,
+    "gradient_norm": 4.181395211815834,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.7233149528503418,
+    "train_accuracy": 0.4375,
+    "validation_loss": 0.6970564126968384,
+    "validation_accuracy": 0.5249999761581421,
+    "lr": 9.924038765061042e-05,
+    "gradient_norm": 1.4171513438224792,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.6875796511769294,
+    "train_accuracy": 0.58125,
+    "validation_loss": 0.6922262907028198,
+    "validation_accuracy": 0.44999998807907104,
+    "lr": 9.698463103929542e-05,
+    "gradient_norm": 0.8799239903688431,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.6785951167345047,
+    "train_accuracy": 0.5875,
+    "validation_loss": 0.6912561655044556,
+    "validation_accuracy": 0.4000000059604645,
+    "lr": 9.330127018922194e-05,
+    "gradient_norm": 0.8580262333154678,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.6616300001740456,
+    "train_accuracy": 0.59375,
+    "validation_loss": 0.6822114586830139,
+    "validation_accuracy": 0.5,
+    "lr": 8.83022221559489e-05,
+    "gradient_norm": 1.0775099307298661,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.6286288872361183,
+    "train_accuracy": 0.6375,
+    "validation_loss": 0.6819677352905273,
+    "validation_accuracy": 0.42500001192092896,
+    "lr": 8.213938048432697e-05,
+    "gradient_norm": 1.4714884728193283,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.5902765676379204,
+    "train_accuracy": 0.7125,
+    "validation_loss": 0.6863493323326111,
+    "validation_accuracy": 0.5,
+    "lr": 7.500000000000001e-05,
+    "gradient_norm": 1.6906342685222626,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.5383179914206266,
+    "train_accuracy": 0.675,
+    "validation_loss": 0.7077838182449341,
+    "validation_accuracy": 0.5,
+    "lr": 6.710100716628344e-05,
+    "gradient_norm": 2.1377231180667877,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.4808832883834839,
+    "train_accuracy": 0.78125,
+    "validation_loss": 0.647983729839325,
+    "validation_accuracy": 0.550000011920929,
+    "lr": 5.868240888334653e-05,
+    "gradient_norm": 2.032881146669388,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.41837111245840786,
+    "train_accuracy": 0.79375,
+    "validation_loss": 0.8227580189704895,
+    "validation_accuracy": 0.550000011920929,
+    "lr": 5e-05,
+    "gradient_norm": 2.458532375097275,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.39570388216525315,
+    "train_accuracy": 0.825,
+    "validation_loss": 0.7212788462638855,
+    "validation_accuracy": 0.574999988079071,
+    "lr": 4.131759111665349e-05,
+    "gradient_norm": 2.5607449769973756,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.38120272383093834,
+    "train_accuracy": 0.7875,
+    "validation_loss": 0.7369851469993591,
+    "validation_accuracy": 0.5249999761581421,
+    "lr": 3.289899283371657e-05,
+    "gradient_norm": 2.430866229534149,
+    "peak_allocated_mb": 639.7
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.3955256704706699,
+    "train_accuracy": 0.8125,
+    "validation_loss": 0.7974613308906555,
+    "validation_accuracy": 0.574999988079071,
+    "lr": 2.500000000000001e-05,
+    "gradient_norm": 3.191197693347931,
+    "peak_allocated_mb": 639.7
+  }
+]

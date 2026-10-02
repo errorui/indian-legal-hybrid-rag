@@ -1,0 +1,23 @@
+{
+  "n": 100,
+  "complete_histories_fit": true,
+  "dataset_sha256": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "contract_sha256": "5104fa64ee4398c8e427816d92b486189152942e0235bbee0978681274775918",
+  "adapter_sha256": "a96ef90668eb20fac3ad53d4cab9b2d9879ec584d897540735db92c9dcf7a09e",
+  "state_format": "conversation only; no tool inventory",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "model": {
+    "repo": "joyfox/Qwen3.5-0.8B-JEV",
+    "revision": "ae7b7040aeff7802f6f2bcfdd27f08a72d5cd969",
+    "code_revision": "2677b5a3714489847668175de793e2d92fe183f0",
+    "path": ".cache\\decision_models\\models--joyfox--Qwen3.5-0.8B-JEV\\snapshots\\ae7b7040aeff7802f6f2bcfdd27f08a72d5cd969",
+    "code_path": ".cache/decision_sources/qwen_code/src"
+  },
+  "gpu": {
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cuda_version": "12.4",
+    "peak_allocated_mb": 1459.6,
+    "peak_reserved_mb": 1530.0
+  }
+}

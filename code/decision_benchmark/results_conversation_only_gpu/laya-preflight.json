@@ -1,0 +1,21 @@
+{
+  "n": 100,
+  "complete_histories_fit": true,
+  "dataset_sha256": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "contract_sha256": "5104fa64ee4398c8e427816d92b486189152942e0235bbee0978681274775918",
+  "adapter_sha256": "a96ef90668eb20fac3ad53d4cab9b2d9879ec584d897540735db92c9dcf7a09e",
+  "state_format": "conversation only; no tool inventory",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "model": {
+    "repo": "convaiinnovations/laya",
+    "revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+    "path": ".cache\\decision_models\\models--convaiinnovations--laya\\snapshots\\55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+  },
+  "gpu": {
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cuda_version": "12.4",
+    "peak_allocated_mb": 1705.7,
+    "peak_reserved_mb": 1816.0
+  }
+}

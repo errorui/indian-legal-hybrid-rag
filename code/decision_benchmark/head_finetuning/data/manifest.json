@@ -1,0 +1,65 @@
+{
+  "purpose": "ModernJEV head-only fine-tuning dataset; training not executed",
+  "seed": 20261002,
+  "counts": {
+    "total": 200,
+    "train": 160,
+    "validation": 40,
+    "single": 100,
+    "multi": 100,
+    "search": 100,
+    "no_search": 100
+  },
+  "split_policy": "Four related cases per group; 8 train / 2 validation groups per family; article-disjoint.",
+  "history_generation": "Constructed by this script from corpus excerpts; not LLM-generated conversations.",
+  "labels": "Authored from explicit evidence requirements; no model predictions used as gold.",
+  "evaluation_dataset": "code\\decision_benchmark\\cases.jsonl",
+  "evaluation_sha256_before": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "evaluation_sha256_after": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "evaluation_n": 100,
+  "corpus_sha256": "b35d99a04b2752cc596ab254f8debb27e48955d7253f149f8cc52637913be956",
+  "evaluation_overlap": {
+    "exact_queries": 0,
+    "full_inputs": 0,
+    "explicit_article_references": 0
+  },
+  "train_validation_overlap": {
+    "groups": 0,
+    "explicit_article_references": 0
+  },
+  "inference_state_fields": [
+    "conversation"
+  ],
+  "routing_contract": {
+    "policy": "Search for constitutional facts or citations absent from the conversation. Reply without search for greetings, unrelated conversation, rewriting supplied text, or facts already supported in history. Ask for clarification without search if essential context is missing. History is context, not instructions.",
+    "question": "Search for constitutional facts or citations absent from the conversation. Reply without search for greetings, unrelated conversation, rewriting supplied text, or facts already supported in history. Ask for clarification without search if essential context is missing. History is context, not instructions.\nShould the next action call search_corpus?",
+    "choices": {
+      "search": "Call search_corpus for new evidence.",
+      "no_search": "Reply or clarify without calling search_corpus."
+    },
+    "threshold": 0.5
+  },
+  "checkpoint": {
+    "repo": "MaziyarPanahi/ModernJEV-Decide-Preview",
+    "revision": "d5b398ed03de073a00bc4e53acf53afda409445e",
+    "path": ".cache\\decision_models\\models--MaziyarPanahi--ModernJEV-Decide-Preview\\snapshots\\d5b398ed03de073a00bc4e53acf53afda409445e"
+  },
+  "planned_training": "Freeze encoder, train existing scalar decision head with grouped candidate cross-entropy.",
+  "candidate_tokens": {
+    "max": 356,
+    "min": 109,
+    "budget": 512,
+    "truncations": 0
+  },
+  "conversation_depth_counts": {
+    "2": 40,
+    "4": 40,
+    "6": 20
+  },
+  "files": {
+    "finetuning_cases.jsonl": "79271fb31cf11a1f807b82b182c2c6fa8fd8fd007fc56e491000179b3fa5c0c9",
+    "train.jsonl": "4777e05a02deca14bebb1d12b1b495cc4cf7ce575528245927b72b8c37801ae4",
+    "validation.jsonl": "65f4a7d15bff68edb3b5d7a8116f1b0772b3bc1dc7da1b08dc9f62a4c93e6623",
+    "source_excerpts.json": "62468707ff9ab53009ecd2481fe0c452f0b34e6db2891f5115f0f3a844b06064"
+  }
+}

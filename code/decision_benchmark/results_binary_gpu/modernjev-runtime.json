@@ -1,0 +1,32 @@
+{
+  "dataset_sha256": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "contract_sha256": "5104fa64ee4398c8e427816d92b486189152942e0235bbee0978681274775918",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "load_ms": 13581.705,
+  "model": {
+    "repo": "MaziyarPanahi/ModernJEV-Decide-Preview",
+    "revision": "d5b398ed03de073a00bc4e53acf53afda409445e",
+    "path": ".cache\\decision_models\\models--MaziyarPanahi--ModernJEV-Decide-Preview\\snapshots\\d5b398ed03de073a00bc4e53acf53afda409445e"
+  },
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\Raj Raman\\Desktop\\python\\rag\\constitutionrag\\.cache\\decision_env\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "concurrency": 1,
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "5.16.1",
+    "huggingface-hub": "1.29.0"
+  },
+  "warmup_calls": 3,
+  "model_parameter_devices": [
+    "cuda:0"
+  ],
+  "model_parameter_dtypes": [
+    "torch.bfloat16"
+  ],
+  "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "cuda_version": "12.4",
+  "peak_allocated_mb": 319.2,
+  "peak_reserved_mb": 690.0
+}

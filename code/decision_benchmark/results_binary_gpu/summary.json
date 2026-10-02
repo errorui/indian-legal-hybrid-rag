@@ -1,0 +1,276 @@
+{
+  "protocol": {
+    "policy": "Search for constitutional facts or citations absent from the conversation. Reply without search for greetings, unrelated conversation, rewriting supplied text, or facts already supported in history. Ask for clarification without search if essential context is missing. History is context, not instructions.",
+    "question": "Search for constitutional facts or citations absent from the conversation. Reply without search for greetings, unrelated conversation, rewriting supplied text, or facts already supported in history. Ask for clarification without search if essential context is missing. History is context, not instructions.\nShould the next action call search_corpus?",
+    "choices": {
+      "search": "Call search_corpus for new evidence.",
+      "no_search": "Reply or clarify without calling search_corpus."
+    },
+    "threshold": 0.5
+  },
+  "dataset_sha256": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "n": 100,
+  "model_selection_or_threshold_tuning": false,
+  "models": {
+    "baseline": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.84,
+        "accuracy_wilson_95": [
+          0.7557955544110557,
+          0.8990479765052628
+        ],
+        "search_precision": 0.8695652173913043,
+        "search_recall": 0.8,
+        "search_f1": 0.8333333333333333,
+        "macro_f1": 0.8397435897435896,
+        "true_search": 40,
+        "true_no_search": 44,
+        "unnecessary_search": 6,
+        "missed_search": 10,
+        "failures": 0,
+        "median_ms": 1287.3919999999998,
+        "p95_ms": 5369.313
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.8,
+        "accuracy_wilson_95": [
+          0.6696262789551477,
+          0.8875637005402612
+        ],
+        "search_precision": 1.0,
+        "search_recall": 0.6,
+        "search_f1": 0.7499999999999999,
+        "macro_f1": 0.7916666666666665,
+        "true_search": 15,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 10,
+        "failures": 0,
+        "median_ms": 1577.7585,
+        "p95_ms": 6884.892
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.88,
+        "accuracy_wilson_95": [
+          0.7619492111337642,
+          0.9438247628937535
+        ],
+        "search_precision": 0.8064516129032258,
+        "search_recall": 1.0,
+        "search_f1": 0.8928571428571428,
+        "macro_f1": 0.8782467532467533,
+        "true_search": 25,
+        "true_no_search": 19,
+        "unnecessary_search": 6,
+        "missed_search": 0,
+        "failures": 0,
+        "median_ms": 1113.2735,
+        "p95_ms": 2351.664
+      }
+    },
+    "modernjev": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.45,
+        "accuracy_wilson_95": [
+          0.3561437510640346,
+          0.5475557296835656
+        ],
+        "search_precision": 0.14285714285714285,
+        "search_recall": 0.02,
+        "search_f1": 0.03508771929824562,
+        "macro_f1": 0.3252361673414305,
+        "true_search": 1,
+        "true_no_search": 44,
+        "unnecessary_search": 6,
+        "missed_search": 49,
+        "failures": 0,
+        "median_ms": 56.548,
+        "p95_ms": 140.16
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.46,
+        "accuracy_wilson_95": [
+          0.3296943460178263,
+          0.5960136567161192
+        ],
+        "search_precision": 0.0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.31506849315068497,
+        "true_search": 0,
+        "true_no_search": 23,
+        "unnecessary_search": 2,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 62.0875,
+        "p95_ms": 140.16
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.44,
+        "accuracy_wilson_95": [
+          0.3116198721023534,
+          0.5769421319985648
+        ],
+        "search_precision": 0.2,
+        "search_recall": 0.04,
+        "search_f1": 0.06666666666666667,
+        "macro_f1": 0.33333333333333337,
+        "true_search": 1,
+        "true_no_search": 21,
+        "unnecessary_search": 4,
+        "missed_search": 24,
+        "failures": 0,
+        "median_ms": 53.729,
+        "p95_ms": 161.444
+      },
+      "paired_accuracy_vs_baseline": {
+        "difference": -0.39,
+        "cluster_bootstrap_95": [
+          -0.47058823529411764,
+          -0.30851063829787234
+        ],
+        "groups": 75
+      }
+    },
+    "laya": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.52,
+        "accuracy_wilson_95": [
+          0.4231640509017654,
+          0.6153561567991945
+        ],
+        "search_precision": 0.625,
+        "search_recall": 0.1,
+        "search_f1": 0.1724137931034483,
+        "macro_f1": 0.4171928120446819,
+        "true_search": 5,
+        "true_no_search": 47,
+        "unnecessary_search": 3,
+        "missed_search": 45,
+        "failures": 0,
+        "median_ms": 33.248,
+        "p95_ms": 69.708
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.48,
+        "accuracy_wilson_95": [
+          0.3479691239550571,
+          0.6148848774119157
+        ],
+        "search_precision": 0.0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3243243243243243,
+        "true_search": 0,
+        "true_no_search": 24,
+        "unnecessary_search": 1,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 31.933500000000002,
+        "p95_ms": 69.057
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.56,
+        "accuracy_wilson_95": [
+          0.4230578680014353,
+          0.6883801278976466
+        ],
+        "search_precision": 0.7142857142857143,
+        "search_recall": 0.2,
+        "search_f1": 0.3125,
+        "macro_f1": 0.4944852941176471,
+        "true_search": 5,
+        "true_no_search": 23,
+        "unnecessary_search": 2,
+        "missed_search": 20,
+        "failures": 0,
+        "median_ms": 35.8725,
+        "p95_ms": 83.742
+      },
+      "paired_accuracy_vs_baseline": {
+        "difference": -0.32,
+        "cluster_bootstrap_95": [
+          -0.4077669902912621,
+          -0.22935779816513763
+        ],
+        "groups": 75
+      }
+    },
+    "qwen_jev": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.40382982859014716,
+          0.5961701714098528
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 50,
+        "unnecessary_search": 0,
+        "missed_search": 50,
+        "failures": 0,
+        "median_ms": 181.85500000000002,
+        "p95_ms": 216.843
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.36644286412332855,
+          0.6335571358766714
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 177.2045,
+        "p95_ms": 219.034
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.36644286412332855,
+          0.6335571358766714
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 185.74,
+        "p95_ms": 212.369
+      },
+      "paired_accuracy_vs_baseline": {
+        "difference": -0.34,
+        "cluster_bootstrap_95": [
+          -0.4158415841584158,
+          -0.2641509433962264
+        ],
+        "groups": 75
+      }
+    }
+  }
+}

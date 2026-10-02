@@ -1,0 +1,28 @@
+{
+  "seed": 20261002,
+  "epochs": 20,
+  "patience": 4,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "micro_batch": 4,
+  "accumulation": 2,
+  "clip_norm": 1.0,
+  "threshold": 0.5,
+  "device": "cuda",
+  "precision": "bfloat16",
+  "checkpoint_selection": "minimum validation raw cross-entropy",
+  "option_order_augmentation": true,
+  "feature_dtype": "preserve encoder output",
+  "hashes": {
+    "train.jsonl": "4777e05a02deca14bebb1d12b1b495cc4cf7ce575528245927b72b8c37801ae4",
+    "validation.jsonl": "65f4a7d15bff68edb3b5d7a8116f1b0772b3bc1dc7da1b08dc9f62a4c93e6623",
+    "finetuning_cases.jsonl": "79271fb31cf11a1f807b82b182c2c6fa8fd8fd007fc56e491000179b3fa5c0c9",
+    "evaluation": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+    "contract": "5104fa64ee4398c8e427816d92b486189152942e0235bbee0978681274775918"
+  },
+  "checkpoint": {
+    "repo": "convaiinnovations/laya",
+    "revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+    "path": ".cache\\decision_models\\models--convaiinnovations--laya\\snapshots\\55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+  }
+}

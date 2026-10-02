@@ -1,0 +1,20 @@
+{
+  "dataset_sha256": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "contract_sha256": "5104fa64ee4398c8e427816d92b486189152942e0235bbee0978681274775918",
+  "device": "remote",
+  "dtype": null,
+  "load_ms": 506.101,
+  "model": "gpt-oss:120b",
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\Raj Raman\\Desktop\\python\\rag\\constitutionrag\\.cache\\decision_env\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "concurrency": 1,
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "5.16.1",
+    "huggingface-hub": "1.29.0"
+  },
+  "warmup_calls": 0,
+  "reused_from": "C:\\Users\\Raj Raman\\Desktop\\python\\rag\\constitutionrag\\code\\decision_benchmark\\results_binary_gpu\\baseline.jsonl",
+  "reused_predictions_sha256": "f2ea78bf8e9a693484190b4a16537c41dc9a5e209f2beb214d9bc76a621af3b7"
+}

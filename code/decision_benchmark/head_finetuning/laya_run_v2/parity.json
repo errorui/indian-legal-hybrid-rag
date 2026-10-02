@@ -1,0 +1,282 @@
+[
+  {
+    "id": "head-005",
+    "full": 0.5619,
+    "cached": 0.5619149804115295,
+    "difference": 1.4980411529585957e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-006",
+    "full": 0.5249,
+    "cached": 0.5248732566833496,
+    "difference": 2.6743316650423843e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-007",
+    "full": 0.5075,
+    "cached": 0.5074675679206848,
+    "difference": 3.24320793151367e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-008",
+    "full": 0.5397,
+    "cached": 0.5397459864616394,
+    "difference": 4.598646163944675e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-029",
+    "full": 0.6741,
+    "cached": 0.6741241216659546,
+    "difference": 2.4121665954557336e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-030",
+    "full": 0.6359,
+    "cached": 0.6359017491340637,
+    "difference": 1.7491340636999197e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-031",
+    "full": 0.5373,
+    "cached": 0.5372713804244995,
+    "difference": 2.8619575500488104e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-032",
+    "full": 0.5348,
+    "cached": 0.5347949266433716,
+    "difference": 5.073356628471082e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-041",
+    "full": 0.8767,
+    "cached": 0.8767090439796448,
+    "difference": 9.043979644740574e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-042",
+    "full": 0.6956,
+    "cached": 0.6956085562705994,
+    "difference": 8.556270599369142e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-043",
+    "full": 0.3827,
+    "cached": 0.38273388147354126,
+    "difference": 3.388147354127513e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-044",
+    "full": 0.5224,
+    "cached": 0.5223893523216248,
+    "difference": 1.0647678375219627e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-069",
+    "full": 0.7849,
+    "cached": 0.7849037647247314,
+    "difference": 3.764724731403213e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-070",
+    "full": 0.4455,
+    "cached": 0.44545167684555054,
+    "difference": 4.8323154449469996e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-071",
+    "full": 0.4776,
+    "cached": 0.4776105582714081,
+    "difference": 1.0558271408056541e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-072",
+    "full": 0.4826,
+    "cached": 0.48258140683174133,
+    "difference": 1.8593168258640436e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-085",
+    "full": 0.5124,
+    "cached": 0.5124443173408508,
+    "difference": 4.4317340850863474e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-086",
+    "full": 0.505,
+    "cached": 0.5049786567687988,
+    "difference": 2.1343231201176316e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-087",
+    "full": 0.8211,
+    "cached": 0.8210529685020447,
+    "difference": 4.703149795537431e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-088",
+    "full": 0.7531,
+    "cached": 0.7531048059463501,
+    "difference": 4.805946350106005e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-113",
+    "full": 0.7622,
+    "cached": 0.7622451186180115,
+    "difference": 4.511861801148598e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-114",
+    "full": 0.7341,
+    "cached": 0.734127402305603,
+    "difference": 2.7402305603052568e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-115",
+    "full": 0.8516,
+    "cached": 0.8516424894332886,
+    "difference": 4.248943328855059e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-116",
+    "full": 0.585,
+    "cached": 0.5850486755371094,
+    "difference": 4.867553710941053e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-141",
+    "full": 0.6839,
+    "cached": 0.6838899850845337,
+    "difference": 1.0014915466260987e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-142",
+    "full": 0.5668,
+    "cached": 0.566811203956604,
+    "difference": 1.1203956604033394e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-143",
+    "full": 0.4726,
+    "cached": 0.47264423966407776,
+    "difference": 4.4239664077738716e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-144",
+    "full": 0.4627,
+    "cached": 0.4627286195755005,
+    "difference": 2.8619575500488104e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-145",
+    "full": 0.7711,
+    "cached": 0.7711499333381653,
+    "difference": 4.9933338165275565e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-146",
+    "full": 0.5224,
+    "cached": 0.5223894119262695,
+    "difference": 1.0588073730444236e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-147",
+    "full": 0.4813,
+    "cached": 0.48133835196495056,
+    "difference": 3.835196495055593e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-148",
+    "full": 0.4405,
+    "cached": 0.4405377209186554,
+    "difference": 3.772091865539284e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-189",
+    "full": 0.7102,
+    "cached": 0.7101629376411438,
+    "difference": 3.706235885625464e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-190",
+    "full": 0.4851,
+    "cached": 0.485068142414093,
+    "difference": 3.1857585906958086e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-191",
+    "full": 0.824,
+    "cached": 0.8239603638648987,
+    "difference": 3.963613510127306e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-192",
+    "full": 0.415,
+    "cached": 0.41495129466056824,
+    "difference": 4.870533943174271e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-193",
+    "full": 0.7781,
+    "cached": 0.7781029939651489,
+    "difference": 2.9939651489119257e-06,
+    "same_route": true
+  },
+  {
+    "id": "head-194",
+    "full": 0.5447,
+    "cached": 0.5446891784667969,
+    "difference": 1.0821533203086986e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-195",
+    "full": 0.4553,
+    "cached": 0.45531079173088074,
+    "difference": 1.0791730880754802e-05,
+    "same_route": true
+  },
+  {
+    "id": "head-196",
+    "full": 0.3827,
+    "cached": 0.38273391127586365,
+    "difference": 3.3911275863662826e-05,
+    "same_route": true
+  }
+]

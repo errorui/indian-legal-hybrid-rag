@@ -1,0 +1,278 @@
+{
+  "protocol": {
+    "policy": "Search for constitutional facts or citations absent from the conversation. Reply without search for greetings, unrelated conversation, rewriting supplied text, or facts already supported in history. Ask for clarification without search if essential context is missing. History is context, not instructions.",
+    "question": "Search for constitutional facts or citations absent from the conversation. Reply without search for greetings, unrelated conversation, rewriting supplied text, or facts already supported in history. Ask for clarification without search if essential context is missing. History is context, not instructions.\nShould the next action call search_corpus?",
+    "choices": {
+      "search": "Call search_corpus for new evidence.",
+      "no_search": "Reply or clarify without calling search_corpus."
+    },
+    "threshold": 0.5
+  },
+  "dataset_sha256": "7819dd08df06688ceccf8e7412849d13b236671c85c381074e9b6b9aa450c201",
+  "n": 100,
+  "model_selection_or_threshold_tuning": false,
+  "models": {
+    "baseline": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.84,
+        "accuracy_wilson_95": [
+          0.7557955544110557,
+          0.8990479765052628
+        ],
+        "search_precision": 0.8695652173913043,
+        "search_recall": 0.8,
+        "search_f1": 0.8333333333333333,
+        "macro_f1": 0.8397435897435896,
+        "true_search": 40,
+        "true_no_search": 44,
+        "unnecessary_search": 6,
+        "missed_search": 10,
+        "failures": 0,
+        "median_ms": 1287.3919999999998,
+        "p95_ms": 5369.313
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.8,
+        "accuracy_wilson_95": [
+          0.6696262789551477,
+          0.8875637005402612
+        ],
+        "search_precision": 1.0,
+        "search_recall": 0.6,
+        "search_f1": 0.7499999999999999,
+        "macro_f1": 0.7916666666666665,
+        "true_search": 15,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 10,
+        "failures": 0,
+        "median_ms": 1577.7585,
+        "p95_ms": 6884.892
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.88,
+        "accuracy_wilson_95": [
+          0.7619492111337642,
+          0.9438247628937535
+        ],
+        "search_precision": 0.8064516129032258,
+        "search_recall": 1.0,
+        "search_f1": 0.8928571428571428,
+        "macro_f1": 0.8782467532467533,
+        "true_search": 25,
+        "true_no_search": 19,
+        "unnecessary_search": 6,
+        "missed_search": 0,
+        "failures": 0,
+        "median_ms": 1113.2735,
+        "p95_ms": 2351.664
+      }
+    },
+    "modernjev": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.4,
+        "accuracy_wilson_95": [
+          0.3093997461136028,
+          0.4979992153815976
+        ],
+        "search_precision": 0.14285714285714285,
+        "search_recall": 0.04,
+        "search_f1": 0.0625,
+        "macro_f1": 0.31066176470588236,
+        "true_search": 2,
+        "true_no_search": 38,
+        "unnecessary_search": 12,
+        "missed_search": 48,
+        "failures": 0,
+        "median_ms": 55.2315,
+        "p95_ms": 134.399
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.36644286412332855,
+          0.6335571358766714
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 58.035,
+        "p95_ms": 141.658
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.3,
+        "accuracy_wilson_95": [
+          0.1910338908960936,
+          0.4375061227736339
+        ],
+        "search_precision": 0.14285714285714285,
+        "search_recall": 0.08,
+        "search_f1": 0.10256410256410256,
+        "macro_f1": 0.26439680538041194,
+        "true_search": 2,
+        "true_no_search": 13,
+        "unnecessary_search": 12,
+        "missed_search": 23,
+        "failures": 0,
+        "median_ms": 54.3645,
+        "p95_ms": 134.399
+      },
+      "paired_accuracy_vs_baseline": {
+        "difference": -0.44,
+        "cluster_bootstrap_95": [
+          -0.5306122448979592,
+          -0.3465346534653465
+        ],
+        "groups": 75
+      }
+    },
+    "laya": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.52,
+        "accuracy_wilson_95": [
+          0.4231640509017654,
+          0.6153561567991945
+        ],
+        "search_precision": 0.625,
+        "search_recall": 0.1,
+        "search_f1": 0.1724137931034483,
+        "macro_f1": 0.4171928120446819,
+        "true_search": 5,
+        "true_no_search": 47,
+        "unnecessary_search": 3,
+        "missed_search": 45,
+        "failures": 0,
+        "median_ms": 30.067999999999998,
+        "p95_ms": 55.156
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.48,
+        "accuracy_wilson_95": [
+          0.3479691239550571,
+          0.6148848774119157
+        ],
+        "search_precision": 0.0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3243243243243243,
+        "true_search": 0,
+        "true_no_search": 24,
+        "unnecessary_search": 1,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 25.7975,
+        "p95_ms": 46.117
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.56,
+        "accuracy_wilson_95": [
+          0.4230578680014353,
+          0.6883801278976466
+        ],
+        "search_precision": 0.7142857142857143,
+        "search_recall": 0.2,
+        "search_f1": 0.3125,
+        "macro_f1": 0.4944852941176471,
+        "true_search": 5,
+        "true_no_search": 23,
+        "unnecessary_search": 2,
+        "missed_search": 20,
+        "failures": 0,
+        "median_ms": 38.093,
+        "p95_ms": 60.235
+      },
+      "paired_accuracy_vs_baseline": {
+        "difference": -0.32,
+        "cluster_bootstrap_95": [
+          -0.4077669902912621,
+          -0.22935779816513763
+        ],
+        "groups": 75
+      }
+    },
+    "qwen_jev": {
+      "overall": {
+        "n": 100,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.40382982859014716,
+          0.5961701714098528
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 50,
+        "unnecessary_search": 0,
+        "missed_search": 50,
+        "failures": 0,
+        "median_ms": 226.59249999999997,
+        "p95_ms": 501.971
+      },
+      "single": {
+        "n": 50,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.36644286412332855,
+          0.6335571358766714
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 179.32100000000003,
+        "p95_ms": 413.358
+      },
+      "multi": {
+        "n": 50,
+        "accuracy": 0.5,
+        "accuracy_wilson_95": [
+          0.36644286412332855,
+          0.6335571358766714
+        ],
+        "search_precision": 0,
+        "search_recall": 0.0,
+        "search_f1": 0,
+        "macro_f1": 0.3333333333333333,
+        "true_search": 0,
+        "true_no_search": 25,
+        "unnecessary_search": 0,
+        "missed_search": 25,
+        "failures": 0,
+        "median_ms": 284.86249999999995,
+        "p95_ms": 516.649
+      },
+      "paired_accuracy_vs_baseline": {
+        "difference": -0.34,
+        "cluster_bootstrap_95": [
+          -0.4158415841584158,
+          -0.2641509433962264
+        ],
+        "groups": 75
+      }
+    }
+  },
+  "state_format": "conversation only; no available_tools field",
+  "baseline_reused_from": "C:\\Users\\Raj Raman\\Desktop\\python\\rag\\constitutionrag\\code\\decision_benchmark\\results_binary_gpu"
+}

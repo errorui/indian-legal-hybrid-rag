@@ -1,0 +1,8 @@
+# Download weights through the pinned model sources; keep GPU caches local.
+*.pt
+*.safetensors
+__pycache__/
+head_finetuning/exports/
+# Draft Colab bundle: the reported run is linked in head_finetuning/README.md.
+head_finetuning/colab/
+head_finetuning/build_colab_package.py

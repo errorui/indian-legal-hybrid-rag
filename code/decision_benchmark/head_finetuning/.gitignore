@@ -1,0 +1,4 @@
+# Local model weights, feature caches and optimizer state are not source files.
+laya_run*/*.pt
+laya_run*/*.safetensors
+__pycache__/

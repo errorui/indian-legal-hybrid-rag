@@ -1,0 +1,15 @@
+{
+  "modernjev": {
+    "repo": "MaziyarPanahi/ModernJEV-Decide-Preview",
+    "revision": "d5b398ed03de073a00bc4e53acf53afda409445e"
+  },
+  "laya": {
+    "repo": "convaiinnovations/laya",
+    "revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+  },
+  "qwen_jev": {
+    "repo": "joyfox/Qwen3.5-0.8B-JEV",
+    "revision": "ae7b7040aeff7802f6f2bcfdd27f08a72d5cd969",
+    "code_revision": "2677b5a3714489847668175de793e2d92fe183f0"
+  }
+}
